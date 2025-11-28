@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____              
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+#                             |___/                    
+
+# Hỗ trợ: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>"
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "phiên bản: {0}"
+  author: "tác giả: {0}"
+  website: "website: {0}"
+  enabled: "HoldMyCow đã được kích hoạt thành công."
+  disabled: "HoldMyCow đã được vô hiệu hóa thành công."
+  language_loaded: "Ngôn ngữ đã tải: {0}.yml ({1} bản dịch)"
+  enable_error: "Đã xảy ra lỗi khi kích hoạt HoldMyCow: {0}"
+  version_detected: "Phiên bản được phát hiện: {0}"
+  paper_detected: "<color:#FFA500>Đã phát hiện Paper:</color> Sử dụng các hook của Paper để cải thiện hiệu suất."
+  paper_not_detected: "<color:#FFA500>Đã phát hiện Spigot:</color> Sử dụng các hook cốt lõi."
+  update_available: "<color:#FFA500>Có bản cập nhật:</color> Tải xuống HoldMyCow {0} tại {1}"
+  no_update_available: "<color:#FFA500>Không có bản cập nhật.</color> Bạn đang sử dụng phiên bản mới nhất."
+  update_check_failed: "<color:#FFA500>Không thể kiểm tra cập nhật:</color> {0}"
+  update_check_error: "<color:#FFA500>Lỗi khi kiểm tra cập nhật:</color> {0}"
+  entity:
+    worldguard_detected: "Đã phát hiện WorldGuard cho các tương tác với thực thể."
+    lands_detected: "Đã phát hiện Lands cho các tương tác với thực thể."
+    griefprevention_detected: "Đã phát hiện GriefPrevention cho các tương tác với thực thể."
+    griefprevention_integration_success: "Tích hợp GriefPrevention cho thực thể thành công."
+    griefprevention_integration_failed: "Tích hợp GriefPrevention cho thực thể thất bại: {0}"
+    griefprevention_error: "Lỗi với GriefPrevention cho thực thể: {0}"
+  container:
+    worldguard_detected: "Đã phát hiện WorldGuard cho các tương tác với hộp chứa."
+    lands_detected: "Đã phát hiện Lands cho các tương tác với hộp chứa."
+    lootin_detected: "Đã phát hiện Lootin cho các tương tác với hộp chứa."
+    griefprevention_detected: "Đã phát hiện GriefPrevention cho các tương tác với hộp chứa."
+    griefprevention_integration_success: "Tích hợp GriefPrevention cho hộp chứa thành công."
+    griefprevention_integration_failed: "Tích hợp GriefPrevention cho hộp chứa thất bại: {0}"
+    griefprevention_error: "Lỗi với GriefPrevention cho hộp chứa: {0}"
+  worldguard:
+    entity_flag_registered: "Cờ 'holdmycow-entity' đã được đăng ký thành công."
+    entity_flag_conflict_resolved: "Xung đột với cờ 'holdmycow-entity' đã được giải quyết bằng cách sử dụng cờ hiện có."
+    entity_flag_conflict_error: "Có xung đột với cờ 'holdmycow-entity' không thể giải quyết."
+    container_flag_registered: "Cờ 'holdmycow-container' đã được đăng ký thành công."
+    container_flag_conflict_resolved: "Xung đột với cờ 'holdmycow-container' đã được giải quyết bằng cách sử dụng cờ hiện có."
+    container_flag_conflict_error: "Có xung đột với cờ 'holdmycow-container' không thể giải quyết."
+
+events:
+  registered: "Các sự kiện đã được đăng ký thành công."
+
+commands:
+  player_only: "<red>Chỉ người chơi mới có thể sử dụng lệnh này.</red>"
+  registered: "Các lệnh đã được đăng ký thành công."
+  usage: "Cách sử dụng: /vitamin <args>"
+  no_permission: "<red>Bạn không có quyền sử dụng lệnh này.</red>"
+  reload:
+    success: "HoldMyCow đã được tải lại thành công."
+    error: "Đã xảy ra lỗi khi tải lại HoldMyCow."
+  restore:
+    usage: "<red>Cách sử dụng: /holdmycow restore <player></red>"
+    no_backups: "<red>Không tìm thấy bản sao lưu hộp chứa cho người chơi {0}.</red>"
+    opened: "<green>Đã mở giao diện khôi phục cho {0}. Tìm thấy {1} hộp chứa.</green>"
+    success: "<green>Đã khôi phục hộp chứa thành công.</green>"
+    error: "<red>Có lỗi khi tạo vùng chứa đã khôi phục. Vui lòng thử lại.</red>"
+    inventory_full: "<red>Hộp chứa khôi phục không thể được đặt vào kho đồ của bạn vì nó đã đầy.</red>"
+
+database:
+  already_initialized: "Cơ sở dữ liệu đã được khởi tạo."
+  init_error: "Đã xảy ra lỗi khi khởi tạo cơ sở dữ liệu: {0}"
+  sqlite:
+    error_directory: "Không thể tạo thư mục cơ sở dữ liệu SQLite: "
+    success: "Cơ sở dữ liệu SQLite đã được khởi tạo thành công."
+  mysql:
+    success: "Cơ sở dữ liệu MySQL đã được khởi tạo thành công."
+  mariadb:
+    success: "Cơ sở dữ liệu MariaDB đã được khởi tạo thành công."
+  postgresql:
+    success: "Cơ sở dữ liệu PostgreSQL đã được khởi tạo thành công."
+  tables:
+    success: "Các bảng cơ sở dữ liệu đã được tạo thành công."
+    error: "Đã xảy ra lỗi khi tạo các bảng cơ sở dữ liệu: {0}"
+  query_error: "Đã xảy ra lỗi khi thực thi truy vấn cơ sở dữ liệu: {0}"
+  update_error: "Đã xảy ra lỗi khi cập nhật cơ sở dữ liệu: {0}"
+  close:
+    success: "Kết nối cơ sở dữ liệu đã được đóng thành công."
+  chest:
+    save_error: "Đã xảy ra lỗi khi lưu rương: {0}"
+    load_error: "Đã xảy ra lỗi khi tải rương: {0}"
+    delete_error: "Đã xảy ra lỗi khi xóa rương: {0}"
+    deserialize_error: "Đã xảy ra lỗi khi giải mã rương: {0}"
+  restore:
+    preview_error: "Lỗi khi tải trước hộp chứa: {0}"
+    load_error: "Lỗi khi tải hộp chứa: {0}"
+    info_error: "Lỗi khi lấy thông tin hộp chứa: {0}"
+    mark_error: "Lỗi khi đánh dấu hộp chứa: {0}"
+    create_error: "Lỗi khi tạo hộp chứa: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>Bạn không thể nhặt người chơi!</red>"
+  cannot_carry_while_carrying: "<red>Bạn không thể mang một thực thể trong khi đang mang một thực thể khác!</red>"
+  cannot_carry_while_being_carried: "<red>Bạn không thể mang một thực thể trong khi đang được mang!</red>"
+  cannot_carry_someone_carrying: "<red>Bạn không thể mang ai đó đang mang một thực thể!</red>"
+  cannot_carry_someone_being_carried: "<red>Bạn không thể mang ai đó đang được mang!</red>"
+  you_dismounted: "<red>Bạn đã xuống khỏi người chơi.</red>"
+  no_permissions: "<red>Bạn không có quyền nhặt cái này.</red>"
+  cannot_pickup_entity: "<red>Thực thể này không thể được nhặt!</red>"
+  entity_too_heavy: "<red>Thực thể này quá nặng để mang!</red>"
+  picked_up_entity: "<green>Bạn đã nhặt một thực thể (Trọng lượng: {0}/{1})</green>"
+  entity_dropped: "Bạn đã thả thực thể."
+  picked_up_chest: "<green>Bạn đã nhặt một <yellow>Rương</yellow>.</green>"
+  picked_up_block: "<green>Bạn đã nhặt một <yellow>Container</yellow>.</green>"
+  placed_block: "<gold>Bạn đã đặt khối.</gold>"
+  placed_chest: "<green>Bạn đã đặt một rương.</green>"
+  no_lootin_pickup: "<red>Bạn không thể nhặt container Lootin này.</red>"
+  no_permission_barrel: "<red>Bạn không có quyền mang thùng."
+  no_permission_blast_furnace: "<red>Bạn không có quyền mang lò nung."
+  no_permission_brewing_stand: "<red>Bạn không có quyền mang giá nấu bia."
+  no_permission_chest: "<red>Bạn không có quyền mang rương."
+  no_permission_dispenser: "<red>Bạn không có quyền mang máy phân phối."
+  no_permission_dropper: "<red>Bạn không có quyền mang ống thả."
+  no_permission_ender_chest: "<red>Bạn không có quyền mang rương Ender."
+  no_permission_furnace: "<red>Bạn không có quyền mang lò."
+  no_permission_hopper: "<red>Bạn không có quyền mang phễu."
+  no_permission_shulker_box: "<red>Bạn không có quyền mang hộp Shulker."
+  no_permission_smoker: "<red>Bạn không có quyền mang lò hun khói."
+  no_permission_trapped_chest: "<red>Bạn không có quyền mang rương bẫy."
+  no_stacking_allowed: "<red>Chồng container bị vô hiệu hóa."

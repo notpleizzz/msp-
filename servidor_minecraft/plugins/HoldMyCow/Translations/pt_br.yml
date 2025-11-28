@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V /
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/
+#                             |___/
+
+# Suporte: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>" # A cor aplicada a {0}, {1}, etc. nas traduções
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "versão: {0}"
+  author: "por {0}"
+  website: "site: {0}"
+  enabled: "HoldMyCow ativado com sucesso."
+  disabled: "HoldMyCow desativado com sucesso."
+  language_loaded: "Idioma carregado: {0}.yml ({1} traduções)"
+  enable_error: "Ocorreu um erro ao ativar o HoldMyCow: {0}"
+  version_detected: "Versão detectada: {0}"
+  paper_detected: "<color:#FFA500>Paper detectado:</color> Usando ganchos do Paper para melhor desempenho."
+  paper_not_detected: "<color:#FFA500>Spigot detectado:</color> Usando ganchos do núcleo."
+  update_available: "<color:#FFA500>Atualização disponível:</color> Baixe o Vitamin+ {0} em {1}"
+  no_update_available: "<color:#FFA500>Nenhuma atualização disponível.</color> Você está usando a versão mais recente."
+  update_check_failed: "<color:#FFA500>Falha ao verificar atualizações:</color> {0}"
+  update_check_error: "<color:#FFA500>Erro ao verificar atualizações:</color> {0}"
+  entity:
+    worldguard_detected: "WorldGuard detectado para interações com entidades."
+    lands_detected: "Lands detectado para interações com entidades."
+    griefprevention_detected: "GriefPrevention detectado para interações com entidades."
+    griefprevention_integration_success: "Integração do GriefPrevention para entidades bem-sucedida."
+    griefprevention_integration_failed: "Falha na integração do GriefPrevention para entidades: {0}"
+    griefprevention_error: "Erro com GriefPrevention para entidades: {0}"
+  container:
+    worldguard_detected: "WorldGuard detectado para interações com contêineres."
+    lands_detected: "Lands detectado para interações com contêineres."
+    lootin_detected: "Lootin detectado para interações com contêineres."
+    griefprevention_detected: "GriefPrevention detectado para interações com contêineres."
+    griefprevention_integration_success: "Integração do GriefPrevention para contêineres bem-sucedida."
+    griefprevention_integration_failed: "Falha na integração do GriefPrevention para contêineres: {0}"
+    griefprevention_error: "Erro com GriefPrevention para contêineres: {0}"
+  worldguard:
+    entity_flag_registered: "A bandeira 'holdmycow-entity' foi registrada com sucesso."
+    entity_flag_conflict_resolved: "Um conflito com a bandeira 'holdmycow-entity' foi resolvido usando a bandeira existente."
+    entity_flag_conflict_error: "Houve um conflito com a bandeira 'holdmycow-entity' que não pôde ser resolvido."
+    container_flag_registered: "A bandeira 'holdmycow-container' foi registrada com sucesso."
+    container_flag_conflict_resolved: "Um conflito com a bandeira 'holdmycow-container' foi resolvido usando a bandeira existente."
+    container_flag_conflict_error: "Houve um conflito com a bandeira 'holdmycow-container' que não pôde ser resolvido."
+
+events:
+  registered: "Eventos registrados com sucesso."
+
+commands:
+  player_only: "<red>Este comando só pode ser usado por jogadores.</red>"
+  no_permission: "<red>Você não tem permissão para usar este comando.</red>"
+  registered: "Comandos registrados com sucesso."
+  usage: "Uso: /HoldMyCow <args>"
+  reload:
+    success: "HoldMyCow recarregado com sucesso."
+    error: "Ocorreu um erro ao recarregar o HoldMyCow."
+  restore:
+    usage: "<red>Uso: /holdmycow restore <player></red>"
+    no_backups: "<red>Nenhum backup de contêiner encontrado para o jogador {0}.</red>"
+    opened: "<green>Interface de restauração aberta para {0}. Encontrados {1} contêineres.</green>"
+    success: "<green>Restauração do contêiner {0} concluída com sucesso.</green>"
+    error: "<red>Ocorreu um erro ao restaurar o contêiner: {0}</red>"
+    inventory_full: "<red>Seu inventário está cheio. Não é possível restaurar o contêiner.</red>"
+
+database:
+  already_initialized: "O banco de dados já foi inicializado."
+  init_error: "Ocorreu um erro ao inicializar o banco de dados: {0}"
+  sqlite:
+    error_directory: "Falha ao criar o diretório do banco de dados SQLite: "
+    success: "Banco de dados SQLite inicializado com sucesso."
+  mysql:
+    success: "Banco de dados MySQL inicializado com sucesso."
+  mariadb:
+    success: "Banco de dados MariaDB inicializado com sucesso."
+  postgresql:
+    success: "Banco de dados PostgreSQL inicializado com sucesso."
+  tables:
+    success: "Tabelas do banco de dados criadas com sucesso."
+    error: "Ocorreu um erro ao criar as tabelas do banco de dados: {0}"
+  query_error: "Ocorreu um erro ao executar uma consulta no banco de dados: {0}"
+  update_error: "Ocorreu um erro ao atualizar o banco de dados: {0}"
+  close:
+    success: "Conexão com o banco de dados fechada com sucesso."
+  chest:
+    save_error: "Ocorreu um erro ao salvar o baú: {0}"
+    load_error: "Ocorreu um erro ao carregar o baú: {0}"
+    delete_error: "Ocorreu um erro ao excluir o baú: {0}"
+    deserialize_error: "Ocorreu um erro ao desserializar o baú: {0}"
+  restore:
+    preview_error: "Erro ao carregar a pré-visualização do contêiner: {0}"
+    load_error: "Erro ao carregar os backups do jogador: {0}"
+    info_error: "Erro ao obter informações do backup: {0}"
+    mark_error: "Erro ao marcar o contêiner como restaurado: {0}"
+    create_error: "Erro ao criar o contêiner restaurado: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>Você não pode pegar jogadores!</red>"
+  cannot_carry_while_carrying: "<red>Você não pode carregar uma entidade enquanto carrega outra!</red>"
+  cannot_carry_while_being_carried: "<red>Você não pode carregar uma entidade enquanto está sendo carregado!</red>"
+  cannot_carry_someone_carrying: "<red>Você não pode carregar alguém que já está carregando uma entidade!</red>"
+  cannot_carry_someone_being_carried: "<red>Você não pode carregar alguém que está sendo carregado!</red>"
+  you_dismounted: "<red>Você desmontou do jogador.</red>"
+  no_permissions: "<red>Você não tem permissão para pegar isso.</red>"
+  cannot_pickup_entity: "<red>Esta entidade não pode ser pega!</red>"
+  entity_too_heavy: "<red>Esta entidade é muito pesada para carregar!</red>"
+  picked_up_entity: "<green>Você pegou uma entidade (Peso: {0}/{1})</green>"
+  entity_dropped: "Você soltou a entidade."
+  picked_up_chest: "<green>Você pegou um <yellow>Baú</yellow>.</green>"
+  picked_up_block: "<green>Você pegou um <yellow>Contêiner</yellow>.</green>"
+  placed_block: "<gold>Você colocou o bloco.</gold>"
+  placed_chest: "<green>Você colocou um baú.</green>"
+  no_lootin_pickup: "<red>Você não pode pegar este contêiner Lootin.</red>"
+  no_permission_barrel: "<red>Você não tem permissão para carregar barris."
+  no_permission_blast_furnace: "<red>Você não tem permissão para carregar altos-fornos."
+  no_permission_brewing_stand: "<red>Você não tem permissão para carregar suportes de poções."
+  no_permission_chest: "<red>Você não tem permissão para carregar baús."
+  no_permission_dispenser: "<red>Você não tem permissão para carregar ejetores."
+  no_permission_dropper: "<red>Você não tem permissão para carregar liberadores."
+  no_permission_ender_chest: "<red>Você não tem permissão para carregar baús do Ender."
+  no_permission_furnace: "<red>Você não tem permissão para carregar fornos."
+  no_permission_hopper: "<red>Você não tem permissão para carregar funis."
+  no_permission_shulker_box: "<red>Você não tem permissão para carregar caixas de shulker."
+  no_permission_smoker: "<red>Você não tem permissão para carregar defumadores."
+  no_permission_trapped_chest: "<red>Você não tem permissão para carregar baús com armadilha."
+  no_stacking_allowed: "<red>O empilhamento de contêineres está desativado."

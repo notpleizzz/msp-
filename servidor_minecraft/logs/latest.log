@@ -1,0 +1,366 @@
+[00:00:18] [Server thread/INFO]: notpleizzz issued server command: /reload
+[00:00:18] [Server thread/INFO]: notpleizzz: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[00:00:19] [Server thread/INFO]: notpleizzz issued server command: /reload confirm
+[00:00:19] [Server thread/INFO]: notpleizzz: Please note that this command is not supported and may cause issues when using some plugins.
+[00:00:19] [Server thread/INFO]: notpleizzz: If you encounter any issues please use the /stop command to restart your server.
+[00:00:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:00:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:00:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:00:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:00:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
+[00:00:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:00:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:00:20] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.7.0
+[00:00:20] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[00:00:20] [Server thread/INFO]: [EnchantsSquared] Disabling EnchantsSquared v2.5.17
+[00:00:20] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[00:00:20] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:00:20] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:00:20] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:00:20] [Server thread/INFO]: [GWarp] Disabling GWarp v[2.13.0.2]
+[00:00:20] [Server thread/INFO]: [GWarp] The Plugin was successfully disabled.
+[00:00:20] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:00:20] [WebSocketConnectReadThread-215/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:00:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.2-SNAPSHOT
+[00:00:20] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:00:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:00:22] [Server thread/INFO]: Loaded 1373 recipes
+[00:00:22] [Server thread/INFO]: Loaded 1484 advancements
+[00:00:24] [Server thread/ERROR]: Nag author(s): '[LOOHP]' of 'ImageFrame v1.8.7.0' about the following: This plugin is not properly shutting down its async tasks when it is being reloaded.  This may cause conflicts with the newly loaded version of the plugin
+[00:00:24] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:00:25] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[00:00:25] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - EnchantsSquared (2.5.17), GWarp ([2.13.0.2]), Geyser-Spigot (2.9.1-SNAPSHOT), ImageFrame (1.8.7.0), LuckPerms (5.5.17), ViaVersion (5.5.2-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[00:00:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.2-SNAPSHOT
+[00:00:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:00:25] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:00:26] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:00:27] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:00:27] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:00:28] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:00:28] [Server thread/INFO]: [floodgate] Took 958ms to boot Floodgate
+[00:00:28] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
+[00:00:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[00:00:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:00:29] [Server thread/INFO]: [EnchantsSquared] Loading server plugin EnchantsSquared v2.5.17
+[00:00:29] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.7.0
+[00:00:29] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
+[00:00:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:00:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:00:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:00:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[00:00:30] [Server thread/INFO]:         __    
+[00:00:30] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[00:00:30] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:00:30] [Server thread/INFO]: 
+[00:00:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:00:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:00:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:00:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1236ms)
+[00:00:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.2-SNAPSHOT
+[00:00:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[00:00:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:00:31] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:00:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:00:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:00:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:00:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:00:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:00:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:00:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:00:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:00:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:00:31] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:00:31] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1135)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1040)
+[00:00:31] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:00:31] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[00:00:31] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2269)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2242)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262)
+[00:00:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[00:00:31] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:00:31] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[00:00:31] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[00:00:31] [Server thread/INFO]: [EnchantsSquared] Enabling EnchantsSquared v2.5.17
+[00:00:32] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.7.0
+[00:00:32] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[00:00:38] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[00:00:38] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
+[00:00:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:00:40] [Server thread/INFO]: [Geyser-Spigot] 
+[00:00:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
+[00:00:40] [Server thread/INFO]: [Geyser-Spigot] 
+[00:00:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:00:41] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[00:00:46] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 14171
+[00:00:46] [Server thread/INFO]: [Geyser-Spigot] Done (6.18s)! Run /geyser help for help!
+[00:00:47] [Server thread/INFO]: notpleizzz: Reload complete.
+[00:00:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27177ms or 543 ticks behind
+[00:00:47] [Craft Scheduler Thread - 35 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:00:47] [Craft Scheduler Thread - 44 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[00:00:47] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:05:14] [Server thread/INFO]: notpleizzz issued server command: /imageframe create nocuenca <url> https://cdn.discordapp.com/attachments/879494496918863986/1443754472688975963/nooo_cuenca_1.png?ex=692a38a1&is=6928e721&hm=f72677c7c450b7db0001ec725e23b0791b98dcea28d72b9e0bc86c1e855e1d5c& 4 4 combined
+[00:05:28] [Server thread/INFO]: notpleizzz issued server command: /imageframe create nocuenca https://cdn.discordapp.com/attachments/879494496918863986/1443754472688975963/nooo_cuenca_1.png?ex=692a38a1&is=6928e721&hm=f72677c7c450b7db0001ec725e23b0791b98dcea28d72b9e0bc86c1e855e1d5c& 8 4 combined
+[00:26:52] [Server thread/INFO]: notpleizzz issued server command: /Rl
+[00:26:55] [Server thread/INFO]: notpleizzz issued server command: /rl
+[00:26:55] [Server thread/INFO]: notpleizzz: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[00:26:58] [Server thread/INFO]: notpleizzz issued server command: /rl confirm
+[00:26:58] [Server thread/INFO]: notpleizzz: Please note that this command is not supported and may cause issues when using some plugins.
+[00:26:58] [Server thread/INFO]: notpleizzz: If you encounter any issues please use the /stop command to restart your server.
+[00:26:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:26:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:26:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:26:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:26:58] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
+[00:26:58] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:26:58] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:26:58] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.7.0
+[00:26:58] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[00:26:58] [Server thread/INFO]: [EnchantsSquared] Disabling EnchantsSquared v2.5.17
+[00:26:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[00:26:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:26:58] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:26:58] [WebSocketConnectReadThread-350/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:26:58] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:26:58] [Server thread/INFO]: [GWarp] Disabling GWarp v[2.13.0.2]
+[00:26:58] [Server thread/INFO]: [GWarp] The Plugin was successfully disabled.
+[00:26:58] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:26:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.2-SNAPSHOT
+[00:26:58] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:26:58] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:27:00] [Server thread/INFO]: Loaded 1373 recipes
+[00:27:00] [Server thread/INFO]: Loaded 1484 advancements
+[00:27:01] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:27:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/HoldMyCow-1.4.0.jar'...
+[00:27:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HoldMyCow-1.4.0.jar' in 1538ms.
+[00:27:03] [Server thread/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[00:27:03] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - EnchantsSquared (2.5.17), GWarp ([2.13.0.2]), Geyser-Spigot (2.9.1-SNAPSHOT), HoldMyCow (1.4.0), ImageFrame (1.8.7.0), LuckPerms (5.5.17), ViaVersion (5.5.2-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[00:27:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.2-SNAPSHOT
+[00:27:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:27:03] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:27:04] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:27:04] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:27:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:27:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:27:06] [Server thread/INFO]: [floodgate] Took 1,263ms to boot Floodgate
+[00:27:06] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
+[00:27:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[00:27:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:27:07] [Server thread/INFO]: [EnchantsSquared] Loading server plugin EnchantsSquared v2.5.17
+[00:27:07] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.7.0
+[00:27:07] [Server thread/INFO]: [HoldMyCow] Loading server plugin HoldMyCow v1.4.0
+[00:27:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
+[00:27:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:27:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:27:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:27:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[00:27:08] [Server thread/INFO]:         __    
+[00:27:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[00:27:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:27:08] [Server thread/INFO]: 
+[00:27:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:27:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:27:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:27:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1526ms)
+[00:27:09] [Server thread/INFO]: [HoldMyCow] Enabling HoldMyCow v1.4.0
+[00:27:09] [Server thread/INFO]: [HoldMyCow] Using ModernTranslationHandler (Paper/fork detected)
+[00:27:09] [Server thread/INFO]: [HoldMyCow] 
+ _   _       _     _ __  __        ____              
+| | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+| |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+|  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+|_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+                            |___/                    
+[00:27:09] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[00:27:09] [Server thread/INFO]: [HoldMyCow] HoldMyCow
+[00:27:09] [Server thread/INFO]: [HoldMyCow] version: 1.4.0
+[00:27:09] [Server thread/INFO]: [HoldMyCow] by [Stargaze (Eros Marí)]
+[00:27:09] [Server thread/INFO]: [HoldMyCow] website: https://soystargaze.com
+[00:27:09] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[00:27:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Starting...
+[00:27:09] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HoldMyCow-SQLite - Added connection org.sqlite.jdbc4.JDBC4Connection@5c560070
+[00:27:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Start completed.
+[00:27:09] [Server thread/INFO]: [HoldMyCow] SQLite database initialized successfully.
+[00:27:10] [Server thread/INFO]: [HoldMyCow] Database tables created successfully.
+[00:27:10] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[00:27:10] [Server thread/INFO]: [HoldMyCow] HoldMyCow enabled successfully.
+[00:27:10] [Server thread/INFO]: [HoldMyCow] Language loaded: en_us.yml (100 translations)
+[00:27:10] [Server thread/INFO]: [HoldMyCow] Commands registered successfully.
+[00:27:10] [Server thread/INFO]: [HoldMyCow] Events registered successfully.
+[00:27:10] [Server thread/INFO]: [HoldMyCow] Version detected: 1.21.5
+[00:27:10] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[00:27:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.2-SNAPSHOT
+[00:27:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[00:27:10] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[00:27:10] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:27:10] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:27:10] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:27:10] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:27:10] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:27:10] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:27:10] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:27:10] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:27:10] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:27:10] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:27:10] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:27:10] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1135)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1040)
+[00:27:10] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:27:10] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[00:27:10] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2269)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2242)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262)
+[00:27:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[00:27:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:27:11] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[00:27:11] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[00:27:11] [Server thread/INFO]: [EnchantsSquared] Enabling EnchantsSquared v2.5.17
+[00:27:11] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.7.0
+[00:27:12] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[00:27:18] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[00:27:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
+[00:27:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:27:22] [Server thread/INFO]: [Geyser-Spigot] 
+[00:27:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
+[00:27:22] [Server thread/INFO]: [Geyser-Spigot] 
+[00:27:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:27:29] [GeyserServer-21-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 14171
+[00:27:29] [Server thread/INFO]: [Geyser-Spigot] Done (6.809s)! Run /geyser help for help!
+[00:27:29] [Server thread/INFO]: notpleizzz: Reload complete.
+[00:27:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31248ms or 624 ticks behind
+[00:27:29] [Craft Scheduler Thread - 91 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:27:29] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:27:29] [Server thread/WARN]: notpleizzz moved too quickly! 7.717777682599831,2.279980357121488,6.017429843808031
+[00:27:29] [Craft Scheduler Thread - 92 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[00:28:03] [Server thread/INFO]: notpleizzz issued server command: /gamemode survival
+[00:28:03] [Server thread/INFO]: [notpleizzz: Set own game mode to Survival Mode]
+[00:29:35] [Server thread/INFO]: notpleizzz issued server command: /time set 0
+[00:29:35] [Server thread/INFO]: [notpleizzz: Set the time to 0]
+[00:31:13] [Server thread/INFO]: notpleizzz lost connection: Disconnected
+[00:31:13] [Server thread/INFO]: notpleizzz left the game
+[00:41:34] [GeyserServerChild-22-1/INFO]: [Geyser-Spigot] Player connected with username notpleizzz5094 (860)
+[00:41:34] [localSession-25-2/INFO]: [Geyser-Spigot] notpleizzz5094 (logged in as: notpleizzz5094) has connected to the Java server
+[00:41:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as .notpleizzz5094 joined (UUID: 00000000-0000-0000-0009-01fd2ade3bf0)
+[00:41:35] [Server thread/INFO]: .notpleizzz5094 joined the game
+[00:41:35] [Server thread/INFO]: .notpleizzz5094[/127.95.73.114:0] logged in with entity id 10080 at ([world]-32.625248, 66.0, -72.04003)
+[00:41:35] [WebSocketConnectReadThread-595/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[00:42:08] [Server thread/INFO]: Made .notpleizzz5094 a server operator
+[00:42:09] [Server thread/INFO]: .notpleizzz5094 was slain by Zombie
+[00:42:23] [Server thread/INFO]: Set .notpleizzz5094's game mode to Creative Mode
+[00:43:08] [Server thread/INFO]: ℹ Server Plugins (8):
+[00:43:08] [Server thread/INFO]: Bukkit Plugins:
+[00:43:08] [Server thread/INFO]:  - EnchantsSquared, floodgate, Geyser-Spigot, GWarp, HoldMyCow, ImageFrame, LuckPerms, ViaVersion
+[00:43:37] [Server thread/INFO]: Set .notpleizzz5094's game mode to Survival Mode
+[00:43:45] [Server thread/INFO]: .notpleizzz5094 was blown up by Creeper
+[00:43:48] [GeyserServerChild-22-1/INFO]: [Geyser-Spigot] notpleizzz5094 has disconnected from the Java server because of Bedrock client disconnected
+[00:43:48] [Geyser Spigot connection thread-24-3/INFO]: [floodgate] Floodgate player logged in as .notpleizzz5094 disconnected
+[00:43:48] [Server thread/INFO]: .notpleizzz5094 lost connection: Disconnected
+[00:43:48] [Server thread/INFO]: .notpleizzz5094 left the game
+[01:55:46] [Server thread/INFO]: Stopping the server
+[01:55:46] [Server thread/INFO]: Stopping server
+[01:55:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
+[01:55:46] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:55:46] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:55:46] [Server thread/INFO]: [HoldMyCow] Disabling HoldMyCow v1.4.0
+[01:55:46] [Server thread/INFO]: [HoldMyCow] HoldMyCow disabled successfully.
+[01:55:46] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Shutdown initiated...
+[01:55:46] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Shutdown completed.
+[01:55:46] [Server thread/INFO]: [HoldMyCow] Database connection closed successfully.
+[01:55:46] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.7.0
+[01:55:46] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[01:55:46] [Server thread/INFO]: [EnchantsSquared] Disabling EnchantsSquared v2.5.17
+[01:55:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[01:55:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:55:46] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:55:46] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:55:46] [Server thread/INFO]: [GWarp] Disabling GWarp v[2.13.0.2]
+[01:55:46] [Server thread/INFO]: [GWarp] The Plugin was successfully disabled.
+[01:55:46] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:55:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.2-SNAPSHOT
+[01:55:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:55:46] [Server thread/INFO]: Saving players
+[01:55:46] [WebSocketConnectReadThread-602/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:55:46] [Server thread/INFO]: Saving worlds
+[01:55:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 148 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:55:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:55:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:55:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:55:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:55:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:55:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:55:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:55:46] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:55:46] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:55:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:55:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

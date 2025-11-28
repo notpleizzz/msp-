@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V /
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/
+#                             |___/
+
+# Support: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>"
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "버전: {0}"
+  author: "제작자: {0}"
+  website: "웹사이트: {0}"
+  enabled: "HoldMyCow이 성공적으로 활성화되었습니다."
+  disabled: "HoldMyCow이 성공적으로 비활성화되었습니다."
+  language_loaded: "언어 로드 완료: {0}.yml ({1}개 번역)"
+  enable_error: "HoldMyCow 활성화 중 오류가 발생했습니다: {0}"
+  version_detected: "감지된 버전: {0}"
+  paper_detected: "<color:#FFA500>Paper 감지됨:</color> 더 나은 성능을 위해 Paper 훅을 사용합니다."
+  paper_not_detected: "<color:#FFA500>Spigot 감지됨:</color> 코어 훅을 사용합니다."
+  update_available: "<color:#FFA500>업데이트 가능:</color> HoldMyCow {0}을(를) {1}에서 다운로드하세요."
+  no_update_available: "<color:#FFA500>업데이트 없음.</color> 최신 버전을 사용하고 있습니다."
+  update_check_failed: "<color:#FFA500>업데이트 확인 실패:</color> {0}"
+  update_check_error: "<color:#FFA500>업데이트 확인 중 오류 발생:</color> {0}"
+  entity:
+    worldguard_detected: "엔티티 상호작용을 위해 WorldGuard가 감지되었습니다."
+    lands_detected: "엔티티 상호작용을 위해 Lands가 감지되었습니다."
+    griefprevention_detected: "엔티티 상호작용을 위해 GriefPrevention가 감지되었습니다."
+    griefprevention_integration_success: "엔티티에 대한 GriefPrevention 통합이 성공했습니다."
+    griefprevention_integration_failed: "엔티티에 대한 GriefPrevention 통합 실패: {0}"
+    griefprevention_error: "엔티티에 대한 GriefPrevention 오류: {0}"
+  container:
+    worldguard_detected: "컨테이너 상호작용을 위해 WorldGuard가 감지되었습니다."
+    lands_detected: "컨테이너 상호작용을 위해 Lands가 감지되었습니다."
+    lootin_detected: "컨테이너 상호작용을 위해 Lootin이 감지되었습니다."
+    griefprevention_detected: "컨테이너 상호작용을 위해 GriefPrevention가 감지되었습니다."
+    griefprevention_integration_success: "컨테이너에 대한 GriefPrevention 통합이 성공했습니다."
+    griefprevention_integration_failed: "컨테이너에 대한 GriefPrevention 통합 실패: {0}"
+    griefprevention_error: "컨테이너에 대한 GriefPrevention 오류: {0}"
+  worldguard:
+    entity_flag_registered: "'holdmycow-entity' 플래그가 성공적으로 등록되었습니다."
+    entity_flag_conflict_resolved: "'holdmycow-entity' 플래그의 충돌이 기존 플래그를 사용하여 해결되었습니다."
+    entity_flag_conflict_error: "'holdmycow-entity' 플래그와의 충돌을 해결할 수 없습니다."
+    container_flag_registered: "'holdmycow-container' 플래그가 성공적으로 등록되었습니다."
+    container_flag_conflict_resolved: "'holdmycow-container' 플래그의 충돌이 기존 플래그를 사용하여 해결되었습니다."
+    container_flag_conflict_error: "'holdmycow-container' 플래그와의 충돌을 해결할 수 없습니다."
+
+events:
+  registered: "이벤트가 성공적으로 등록되었습니다."
+
+commands:
+  player_only: "<red>이 명령어는 플레이어만 사용할 수 있습니다.</red>"
+  no_permission: "<red>이 명령어를 사용할 권한이 없습니다.</red>"
+  registered: "명령어가 성공적으로 등록되었습니다."
+  usage: "사용법: /HoldMyCow <args>"
+  reload:
+    success: "HoldMyCow가 성공적으로 재로드되었습니다."
+    error: "HoldMyCow 재로드 중 오류가 발생했습니다."
+  restore:
+    usage: "<red>사용법: /holdmycow restore <플레이어></red>"
+    no_backups: "<red>{0} 플레이어의 컨테이너 백업을 찾을 수 없습니다.</red>"
+    opened: "<green>{0}의 복원 인터페이스를 열었습니다. {1}개의 컨테이너가 발견되었습니다.</green>"
+    success: "<green>복원된 컨테이너를 성공적으로 생성했습니다.</green>"
+    error: "<red>복원된 컨테이너를 생성하는 중 오류가 발생했습니다: {0}</red>"
+    inventory_full: "<red>인벤토리가 가득 차 있습니다. 복원된 컨테이너를 생성할 수 없습니다.</red>"
+
+database:
+  already_initialized: "데이터베이스가 이미 초기화되었습니다."
+  init_error: "데이터베이스 초기화 중 오류가 발생했습니다: {0}"
+  sqlite:
+    error_directory: "SQLite 데이터베이스 디렉토리를 생성하지 못했습니다: "
+    success: "SQLite 데이터베이스가 성공적으로 초기화되었습니다."
+  mysql:
+    success: "MySQL 데이터베이스가 성공적으로 초기화되었습니다."
+  mariadb:
+    success: "MariaDB 데이터베이스가 성공적으로 초기화되었습니다."
+  postgresql:
+    success: "PostgreSQL 데이터베이스가 성공적으로 초기화되었습니다."
+  tables:
+    success: "데이터베이스 테이블이 성공적으로 생성되었습니다."
+    error: "데이터베이스 테이블 생성 중 오류가 발생했습니다: {0}"
+  query_error: "데이터베이스 쿼리 실행 중 오류가 발생했습니다: {0}"
+  update_error: "데이터베이스 업데이트 중 오류가 발생했습니다: {0}"
+  close:
+    success: "데이터베이스 연결이 성공적으로 닫혔습니다."
+  chest:
+    save_error: "상자 저장 중 오류가 발생했습니다: {0}"
+    load_error: "상자 로드 중 오류가 발생했습니다: {0}"
+    delete_error: "상자 삭제 중 오류가 발생했습니다: {0}"
+    deserialize_error: "상자 역직렬화 중 오류가 발생했습니다: {0}"
+  restore:
+    preview_error: "컨테이너 미리보기 로드 중 오류가 발생했습니다: {0}"
+    load_error: "플레이어 백업 로드 중 오류가 발생했습니다: {0}"
+    info_error: "백업 정보 가져오기 중 오류가 발생했습니다: {0}"
+    mark_error: "컨테이너를 복원된 것으로 표시하는 중 오류가 발생했습니다: {0}"
+    create_error: "복원된 컨테이너 생성 중 오류가 발생했습니다: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>플레이어를 집을 수 없습니다!</red>"
+  cannot_carry_while_carrying: "<red>다른 엔티티를 들고 있는 동안 엔티티를 들 수 없습니다!</red>"
+  cannot_carry_while_being_carried: "<red>들려 있는 동안 엔티티를 들 수 없습니다!</red>"
+  cannot_carry_someone_carrying: "<red>이미 엔티티를 들고 있는 사람을 들 수 없습니다!</red>"
+  cannot_carry_someone_being_carried: "<red>들려 있는 사람을 들 수 없습니다!</red>"
+  you_dismounted: "<red>플레이어에서 내리셨습니다.</red>"
+  no_permissions: "<red>이것을 집을 권한이 없습니다.</red>"
+  cannot_pickup_entity: "<red>이 엔티티는 집을 수 없습니다!</red>"
+  entity_too_heavy: "<red>이 엔티티는 너무 무거워서 들 수 없습니다!</red>"
+  picked_up_entity: "<green>엔티티를 집었습니다 (무게: {0}/{1})</green>"
+  entity_dropped: "엔티티를 놓았습니다."
+  picked_up_chest: "<green><yellow>상자</yellow>를 집었습니다.</green>"
+  picked_up_block: "<green><yellow>컨테이너</yellow>를 집었습니다.</green>"
+  placed_block: "<gold>블록을 배치했습니다.</gold>"
+  placed_chest: "<green>상자를 배치했습니다.</green>"
+  no_lootin_pickup: "<red>이 루틴 컨테이너를 집을 수 없습니다.</red>"
+  no_permission_barrel: "<red>통을 운반할 권한이 없습니다."
+  no_permission_blast_furnace: "<red>용광로를 운반할 권한이 없습니다."
+  no_permission_brewing_stand: "<red>양조대를 운반할 권한이 없습니다."
+  no_permission_chest: "<red>상자를 운반할 권한이 없습니다."
+  no_permission_dispenser: "<red>발사기를 운반할 권한이 없습니다."
+  no_permission_dropper: "<red>드로퍼를 운반할 권한이 없습니다."
+  no_permission_ender_chest: "<red>엔더 상자를 운반할 권한이 없습니다."
+  no_permission_furnace: "<red>화로를 운반할 권한이 없습니다."
+  no_permission_hopper: "<red>호퍼를 운반할 권한이 없습니다."
+  no_permission_shulker_box: "<red>셜커 상자를 운반할 권한이 없습니다."
+  no_permission_smoker: "<red>훈연기를 운반할 권한이 없습니다."
+  no_permission_trapped_chest: "<red>덫 상자를 운반할 권한이 없습니다."
+  no_stacking_allowed: "<red>컨테이너 스태킹이 비활성화되었습니다."

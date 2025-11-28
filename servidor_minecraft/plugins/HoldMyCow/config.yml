@@ -1,0 +1,92 @@
+#  _   _       _     _ __  __        ____
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V /
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/
+#                             |___/
+
+# Support: https://soystargaze.com/discord
+# Version: 1.4.0
+
+# Plugin settings
+# Language of the plugin
+language: en_us
+
+# Overwrite default translation files with plugin updates if true.
+# Recommended: leave true to keep defaults up-to-date.
+# For custom translations, duplicate and rename default files before editing.
+translations:
+  force-update: true # Recommended to keep translations up-to-date. Default: true
+
+update-check: true # Check for updates on admin join
+
+# Database settings
+database:
+  type: sqlite
+  
+  # For MySQL, MariaDB and PostgreSQL:
+  mysql:
+    host: localhost
+    port: 3306
+    database: vitamin
+    username: root
+    password: ''
+  
+  mariadb:
+    host: localhost
+    port: 3306
+    database: vitamin
+    username: root
+    password: ''
+  
+  postgresql:
+    host: localhost
+    port: 5432
+    database: vitamin
+    username: postgres
+    password: ''
+
+# Hold My Cow settings
+settings:
+  async_thread_pool_size: 4 # Number of threads for async tasks
+  max_weight: 100 # Weight is based on the (max health * 2) of the entity
+  allow_stacking: false # Allow stacking of players carrying other players
+  prevent_container_stacking: true # Prevent stacking of containers inside other containers
+  allow_player_pickup: false # Allow players to pick up other players (needs additional permission: holdmycow.carry_on.entity.player)
+  allow_lootin_pickup: false # Block Lootin chest pickup (only if Lootin plugin is on the server)
+
+# GUI Configuration for Restore Command
+gui:
+  restore:
+    title: '&6Restore: %player% &7(%count% containers)'
+    size: 54
+    date-format: dd/MM/yyyy HH:mm
+    item:
+      display-name: '&e%container_name% &7#%short_id%'
+      restored-yes: '&aYes'
+      restored-no: '&cNo'
+      lore:
+      - '&7▸ ID: &f%short_id%...'
+      - '&7▸ Picked up: &f%pickup_date%'
+      - '&7▸ Location: &f%world% (%x%, %y%, %z%)'
+      - '&7▸ Restored: %restored_status%'
+      - ''
+      - '&7Contents preview:'
+      - '%contents%'
+      - ''
+      - '&e▶ Click to give a copy to your inventory'
+      contents:
+        empty: '  &8• Empty'
+        item-format: '  &8• &f%amount%x &7%item_name%'
+        more-format: '  &8• ... and %remaining% more items'
+        max-preview: 5
+    restored-item:
+      display-name: '&6Restored %container_name%'
+      date-format: dd/MM/yyyy HH:mm
+      lore:
+      - '&7▸ Original owner: &f%owner%'
+      - '&7▸ Backup ID: &f%short_id%...'
+      - '&7▸ Picked up: &f%pickup_date%'
+      - '&7▸ Original location: &f%world% (%x%, %y%, %z%)'
+      - ''
+      - '&e▶ This is a restored copy from backup'
