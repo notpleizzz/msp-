@@ -1,0 +1,30 @@
+# Don't touch this!
+config-version: 1
+
+# The rendering distance of the cigarettes.
+render-distance: 72.0
+
+# If true, when drinking milk, the cigarette will be extinguished.
+remove-when-drinking-milk: true
+
+# Default sounds, used when a custom cigarette doesn't have custom sounds.
+sounds:
+  light: ITEM_FLINTANDSTEEL_USE, 1.0, 1.0
+  extinguish: BLOCK_LAVA_EXTINGUISH, 1.0, 1.0
+  smoke: BLOCK_FIRE_AMBIENT, 1.0, 1.0
+
+# If true, existing cigarettes prior to version 2.0.1 won't work, as they don't have a cigarette identifier.
+# If false, these cigarettes can be used, but players allowed to change the name and lore of an item can replicate cigarettes and use them.
+invalidate-old-cigarettes: false
+
+messages:
+  no-permission: '&cYou don''t have permission to execute this command.'
+  player-not-found: '&cPlayer not found!'
+  requires-lightning: '&cThis cigarette must be lit with a flint and steel or a fire
+    charge!'
+  invalid-amount: '&cChoose an amount between 1 and 64.'
+  reloading: '&aThe plugin is being reloaded in another thread, wait a few seconds...'
+  reload: '&aPlugin reloaded!'
+  unknown: '&cThat cigarette doesn''t exists.'
+  extinguish: '&aYour cigarette is over.'
+  light: '&aCiggy lighted!'

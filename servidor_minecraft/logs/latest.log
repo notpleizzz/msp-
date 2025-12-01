@@ -1,0 +1,722 @@
+[01:33:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[01:33:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[01:33:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:33:46] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/InvSee++.jar'...
+[01:33:46] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/tpa-20250220c.jar'...
+[01:33:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[01:33:46] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vanish.jar'...
+[01:33:49] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vanish.jar' in 3158ms.
+[01:33:49] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Drugs-6.3.jar'...
+[01:33:49] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/tpa-20250220c.jar' in 3397ms.
+[01:33:49] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/ItemCatalog.jar'...
+[01:33:50] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ItemCatalog.jar' in 650ms.
+[01:33:50] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Cigarette-2.0.7.jar'...
+[01:33:50] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Drugs-6.3.jar' in 1115ms.
+[01:33:50] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/AngelChest-13.9.4.jar'...
+[01:33:51] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Cigarette-2.0.7.jar' in 1255ms.
+[01:33:52] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/InvSee++.jar' in 6217ms.
+[01:33:53] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AngelChest-13.9.4.jar' in 2997ms.
+[01:33:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 8083ms.
+[01:33:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
+[01:33:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
+ - AngelChest (13.9.4), Cigarette (2.0.7), Drugs (6.3), EnchantsSquared (2.5.17), FastAsyncWorldEdit (2.14.2+1c61d82), GWarp ([2.13.0.2]), Geyser-Spigot (2.9.1-SNAPSHOT), HoldMyCow (1.4.0), ImageFrame (1.8.7.0), InvSeePlusPlus (0.30.11), ItemCatalog (1.0-SNAPSHOT), JustTPA (20250220c), LuckPerms (5.5.17), Orebfuscator (5.5.6), ProtocolLib (5.4.0), SkinsRestorer (15.9.0), Vanish (0.1), ViaVersion (5.5.2-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[01:34:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:34:05] [ServerMain/INFO]: Loaded 1373 recipes
+[01:34:05] [ServerMain/INFO]: Loaded 1484 advancements
+[01:34:05] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[01:34:05] [Server thread/INFO]: Loading properties
+[01:34:05] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[01:34:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:34:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:34:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:34:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:34:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:34:07] [Server thread/INFO]: Default game type: SURVIVAL
+[01:34:07] [Server thread/INFO]: Generating keypair
+[01:34:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:34:08] [Server thread/INFO]: Using epoll channel type
+[01:34:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:34:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loading 2 libraries... please wait
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
+[01:34:09] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[01:34:10] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loaded library /workspaces/msp-/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[01:34:10] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loaded library /workspaces/msp-/servidor_minecraft/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+[01:34:10] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.2-SNAPSHOT
+[01:34:10] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[01:34:11] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:34:12] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:34:12] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[01:34:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.14.2+1c61d82
+[01:34:13] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
+[01:34:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@62eabdd]
+[01:34:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:34:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:34:15] [Server thread/INFO]: [floodgate] Took 1,402ms to boot Floodgate
+[01:34:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[01:34:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:34:17] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[01:34:17] [Server thread/INFO]: [Cigarette] Loading server plugin Cigarette v2.0.7
+[01:34:17] [Server thread/INFO]: [ItemCatalog] Loading server plugin ItemCatalog v1.0-SNAPSHOT
+[01:34:17] [Server thread/INFO]: [Drugs] Loading server plugin Drugs v6.3
+[01:34:17] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
+[01:34:17] [Server thread/INFO]: [Vanish] Loading server plugin Vanish v0.1
+[01:34:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[01:34:17] [Server thread/INFO]: [EnchantsSquared] Loading server plugin EnchantsSquared v2.5.17
+[01:34:17] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.6
+[01:34:17] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.7.0
+[01:34:17] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[01:34:17] [Server thread/INFO]: [HoldMyCow] Loading server plugin HoldMyCow v1.4.0
+[01:34:17] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
+[01:34:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:34:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:34:17] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.30.11
+[01:34:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:34:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[01:34:17] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.14.2+1c61d82
+[01:34:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:34:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:34:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:34:18] [Server thread/INFO]: WEPIF: Updated config file
+[01:34:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:34:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_5.PaperweightFaweAdapter as the Bukkit adapter
+[01:34:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[01:34:20] [Thread-10/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1229 build(s) out of date.
+You are running build 0, the latest version is build 1229.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[01:34:20] [Server thread/INFO]:         __    
+[01:34:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[01:34:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:34:20] [Server thread/INFO]: 
+[01:34:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:34:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:34:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:34:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2002ms)
+[01:34:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[01:34:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[01:34:24] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[01:34:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Enabling HoldMyCow v1.4.0
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Using ModernTranslationHandler (Paper/fork detected)
+[01:34:25] [Server thread/INFO]: [HoldMyCow] 
+ _   _       _     _ __  __        ____              
+| | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+| |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+|  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+|_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+                            |___/                    
+[01:34:25] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:34:25] [Server thread/INFO]: [HoldMyCow] HoldMyCow
+[01:34:25] [Server thread/INFO]: [HoldMyCow] version: 1.4.0
+[01:34:25] [Server thread/INFO]: [HoldMyCow] by [Stargaze (Eros Marí)]
+[01:34:25] [Server thread/INFO]: [HoldMyCow] website: https://soystargaze.com
+[01:34:25] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:34:25] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Starting...
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.9.0
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:34:25] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:34:25] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HoldMyCow-SQLite - Added connection org.sqlite.jdbc4.JDBC4Connection@119bbb73
+[01:34:25] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Start completed.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] SQLite database initialized successfully.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Database tables created successfully.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:34:25] [Server thread/INFO]: [HoldMyCow] HoldMyCow enabled successfully.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Language loaded: en_us.yml (100 translations)
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Commands registered successfully.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Events registered successfully.
+[01:34:25] [Server thread/INFO]: [HoldMyCow] Version detected: 1.21.5
+[01:34:25] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:34:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:34:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:34:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:34:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:34:25] [Server thread/INFO]: Preparing level "world"
+[01:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:27] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:28] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:28] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:28] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:28] [Server thread/INFO]: Time elapsed: 2315 ms
+[01:34:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:34:28] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:29] [Server thread/INFO]: Preparing spawn area: 67%
+[01:34:29] [Server thread/INFO]: Time elapsed: 595 ms
+[01:34:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:34:29] [Server thread/INFO]: Preparing spawn area: 0%
+[01:34:29] [Server thread/INFO]: Time elapsed: 288 ms
+[01:34:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.2-SNAPSHOT
+[01:34:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[01:34:29] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:34:30] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[01:34:30] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[01:34:30] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[01:34:30] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[01:34:30] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[01:34:30] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[01:34:30] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:34:30] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[01:34:30] [Server thread/INFO]: [Cigarette] Enabling Cigarette v2.0.7
+[01:34:31] [Server thread/INFO]: [ItemCatalog] Enabling ItemCatalog v1.0-SNAPSHOT
+[01:34:31] [Server thread/INFO]: [Drugs] Enabling Drugs v6.3
+[01:34:31] [Server thread/INFO]: [Drugs] Drugs by TheMindDroid.
+[01:34:31] [Server thread/INFO]: [Drugs] Building drug recipes:
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Narcan...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Cocaine...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Heroin...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Adderall...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Steroids...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Hennessy...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Ketamine...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Marijuana...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for LSD...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Ecstasy...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Ayahuasca...
+[01:34:31] [Server thread/INFO]: [Drugs] Generating recipe for Shrooms...
+[01:34:31] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[01:34:31] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[01:34:32] [Server thread/INFO]: [Vanish] Enabling Vanish v0.1
+[01:34:32] [Server thread/INFO]: [EnchantsSquared] Enabling EnchantsSquared v2.5.17
+[01:34:32] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.6
+[01:34:32] [Server thread/INFO]: [Orebfuscator] Searching NMS adapter for server version "v1_21_R4_mojang"!
+[01:34:33] [Server thread/INFO]: [Orebfuscator] NMS adapter for server version "v1_21_R4_mojang" found!
+[01:34:33] [Server thread/INFO]: [Orebfuscator] No config found, creating default config for version 1.20.3 and above
+[01:34:33] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.7.0
+[01:34:34] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[01:34:40] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[01:34:40] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[01:34:40] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[01:34:40] [Server thread/INFO]: [JustTPA] bStats enabled
+[01:34:40] [Server thread/INFO]: [JustTPA] Checking for updates...
+[01:34:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
+[01:34:42] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.30.11
+[01:34:42] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.5
+[01:34:43] [Server thread/INFO]: [spark] Starting background profiler...
+[01:34:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:34:45] [Server thread/INFO]: [Geyser-Spigot] 
+[01:34:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
+[01:34:45] [Server thread/INFO]: [Geyser-Spigot] 
+[01:34:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:34:50] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 14171
+[01:34:50] [Server thread/INFO]: [Geyser-Spigot] Done (5.8s)! Run /geyser help for help!
+[01:34:51] [Server thread/INFO]: Done preparing level "world" (25.716s)
+[01:34:51] [Server thread/INFO]: Running delayed init tasks
+[01:34:51] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:34:51] [Craft Scheduler Thread - 15 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[01:34:51] [pool-32-thread-1/INFO]: [HoldMyCow] No updates available. You are using the latest version.
+[01:34:51] [Server thread/WARN]: [ItemCatalog] "ItemCatalog v1.0-SNAPSHOT" has registered a listener for org.bukkit.event.entity.EntityKnockbackByEntityEvent on method "public void org.realgotqkura.itemCatalog.items.combat.IronbackHelm.onKnockback(org.bukkit.event.entity.EntityKnockbackByEntityEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[01:34:51] [Server thread/WARN]: java.net.UnknownHostException: api.jeff-media.de
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+[01:34:51] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[01:34:51] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+[01:34:51] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[01:34:51] [Server thread/WARN]: 	at AngelChest-13.9.4.jar//de.jeff_media.angelchest.AngelChestMain$$TA.$$case(UpdateChecker.java:203)
+[01:34:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[01:34:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:34:51] [Server thread/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:34:51] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:34:51] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:34:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:34:51] [Server thread/WARN]: [AngelChest] Could not check for updates.
+[01:34:51] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[01:34:52] [Server thread/INFO]: Done (70.117s)! For help, type "help"
+[01:34:52] [Craft Scheduler Thread - 13 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[01:34:54] [Server thread/INFO]: [AngelChest] ========================================================
+[01:34:54] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[01:34:54] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[01:34:54] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[01:34:54] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[01:34:54] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[01:34:54] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[01:34:54] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[01:34:54] [Server thread/INFO]: [AngelChest] 
+[01:34:54] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[01:34:54] [Server thread/INFO]: [AngelChest] ========================================================
+[01:36:25] [User Authenticator #0/INFO]: UUID of player notpleizzz is 9f89170a-6342-3138-9e83-315954fa15a9
+[01:36:27] [pool-32-thread-2/INFO]: [HoldMyCow] No updates available. You are using the latest version.
+[01:36:27] [Server thread/INFO]: notpleizzz joined the game
+[01:36:27] [Server thread/INFO]: notpleizzz[/127.95.73.114:40149] logged in with entity id 86 at ([world]230.93156070166532, 70.0, -507.1339462347844)
+[01:36:36] [Server thread/INFO]: notpleizzz issued server command: /pl
+[01:36:37] [Server thread/INFO]: notpleizzz issued server command: /gamemode creative
+[01:36:37] [Server thread/INFO]: [notpleizzz: Set own game mode to Creative Mode]
+[01:36:49] [Server thread/INFO]: notpleizzz issued server command: /drugs
+[01:36:52] [Server thread/INFO]: notpleizzz issued server command: /drugs Adderall
+[01:36:58] [Server thread/INFO]: notpleizzz issued server command: /gamemode survival
+[01:36:58] [Server thread/INFO]: [notpleizzz: Set own game mode to Survival Mode]
+[01:37:06] [Server thread/INFO]: notpleizzz issued server command: /gamemode creative
+[01:37:06] [Server thread/INFO]: [notpleizzz: Set own game mode to Creative Mode]
+[01:37:12] [Server thread/INFO]: notpleizzz issued server command: /drugs Cocaine
+[01:37:19] [Server thread/INFO]: notpleizzz issued server command: /drugs Ayahuasca
+[01:37:30] [Server thread/INFO]: notpleizzz issued server command: /drugs
+[01:37:32] [Server thread/INFO]: notpleizzz issued server command: /drugs info
+[01:37:38] [Server thread/INFO]: notpleizzz issued server command: /drugs Ecstasy
+[01:37:42] [Server thread/INFO]: notpleizzz issued server command: /drugs Hennessy
+[01:37:54] [Server thread/INFO]: notpleizzz issued server command: /drugs Heroin
+[01:37:58] [Server thread/INFO]: notpleizzz has completed the challenge [Great View From Up Here]
+[01:37:58] [Server thread/INFO]: notpleizzz issued server command: /drugs Ketamine
+[01:38:04] [Server thread/INFO]: notpleizzz issued server command: /drugs LSD
+[01:38:08] [Server thread/INFO]: notpleizzz issued server command: /drugs Marijuana
+[01:38:13] [Server thread/INFO]: notpleizzz issued server command: /drugs Narcan
+[01:38:20] [Server thread/INFO]: notpleizzz issued server command: /drugs Narcan
+[01:38:57] [Server thread/INFO]: notpleizzz issued server command: /reload
+[01:38:57] [Server thread/INFO]: notpleizzz: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[01:39:00] [Server thread/INFO]: notpleizzz issued server command: /reload confirm
+[01:39:00] [Server thread/INFO]: notpleizzz: Please note that this command is not supported and may cause issues when using some plugins.
+[01:39:00] [Server thread/INFO]: notpleizzz: If you encounter any issues please use the /stop command to restart your server.
+[01:39:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:39:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:39:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:39:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:39:00] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.30.11
+[01:39:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
+[01:39:00] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:39:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:39:01] [Server thread/INFO]: [HoldMyCow] Disabling HoldMyCow v1.4.0
+[01:39:01] [Server thread/INFO]: [HoldMyCow] HoldMyCow disabled successfully.
+[01:39:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Shutdown initiated...
+[01:39:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Shutdown completed.
+[01:39:01] [Server thread/INFO]: [HoldMyCow] Database connection closed successfully.
+[01:39:01] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[01:39:01] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[01:39:01] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.7.0
+[01:39:01] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[01:39:01] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.6
+[01:39:01] [Server thread/INFO]: [EnchantsSquared] Disabling EnchantsSquared v2.5.17
+[01:39:01] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.0
+[01:39:01] [Server thread/INFO]: [Vanish] Disabling Vanish v0.1
+[01:39:01] [Server thread/INFO]: [GWarp] Disabling GWarp v[2.13.0.2]
+[01:39:01] [Server thread/INFO]: [GWarp] The Plugin was successfully disabled.
+[01:39:01] [Server thread/INFO]: [Drugs] Disabling Drugs v6.3
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Narcan...
+[01:39:01] [WebSocketConnectReadThread-158/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Cocaine...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Heroin...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Adderall...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Steroids...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Hennessy...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Ketamine...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Marijuana...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for LSD...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Ecstasy...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Ayahuasca...
+[01:39:01] [Server thread/INFO]: [Drugs] Unregistering recipe for Shrooms...
+[01:39:01] [Server thread/INFO]: Drugs plugin has terminated.
+[01:39:01] [Server thread/INFO]: [ItemCatalog] Disabling ItemCatalog v1.0-SNAPSHOT
+[01:39:01] [Server thread/INFO]: SupremeFishing: [INFO]: Disabling ItemCatalog
+[01:39:01] [Server thread/INFO]: [Cigarette] Disabling Cigarette v2.0.7
+[01:39:01] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
+[01:39:01] [Server thread/ERROR]: Error occurred while disabling AngelChest v13.9.4
+java.lang.ExceptionInInitializerError: null
+	at AngelChest-13.9.4.jar/de.jeff_media.angelchest.AngelChestMain.onDisable(AngelChestMain.java:445) ~[AngelChest-13.9.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.clearPlugins(PaperPluginInstanceManager.java:167) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.clearPlugins(PaperPluginManagerImpl.java:102) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:607) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1095) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1040) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2269) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2242) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:532) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:218) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:209) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.scheduler.BukkitRunnable.runTaskTimer(BukkitRunnable.java:117) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at AngelChest-13.9.4.jar/de.jeff_media.angelchest.AngelChestMain$$cI.<clinit>(GraveyardListener.java:57) ~[AngelChest-13.9.4.jar:?]
+	... 37 more
+[01:39:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[01:39:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:39:01] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:39:01] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:39:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:39:01] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.14.2+1c61d82
+[01:39:01] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:39:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[01:39:01] [Server thread/ERROR]: *****************************************************************
+[01:39:01] [Server thread/ERROR]: *** WARNING                                                   ***
+[01:39:01] [Server thread/ERROR]: *** RELOADING THE SERVER WHILE PROTOCOLLIB IS ENABLED MIGHT   ***
+[01:39:01] [Server thread/ERROR]: *** LEAD TO UNEXPECTED ERRORS!                                ***
+[01:39:01] [Server thread/ERROR]: ***                                                           ***
+[01:39:01] [Server thread/ERROR]: *** Consider cleanly restarting your server if you encounter  ***
+[01:39:01] [Server thread/ERROR]: *** any issues related to ProtocolLib before opening an issue ***
+[01:39:01] [Server thread/ERROR]: *** on GitHub!                                                ***
+[01:39:01] [Server thread/ERROR]: *****************************************************************
+[01:39:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.2-SNAPSHOT
+[01:39:01] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[01:39:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:39:02] [Server thread/INFO]: Loaded 1373 recipes
+[01:39:02] [Server thread/INFO]: Loaded 1484 advancements
+[01:39:03] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:39:04] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Drugs-v.2.4.0.jar'...
+[01:39:06] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Drugs-v.2.4.0.jar' in 2013ms.
+[01:39:06] [Server thread/INFO]: [PluginInitializerManager] Initialized 19 plugins
+[01:39:06] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (19):
+ - AngelChest (13.9.4), Cigarette (2.0.7), Drugs (2.3.0), EnchantsSquared (2.5.17), FastAsyncWorldEdit (2.14.2+1c61d82), GWarp ([2.13.0.2]), Geyser-Spigot (2.9.1-SNAPSHOT), HoldMyCow (1.4.0), ImageFrame (1.8.7.0), InvSeePlusPlus (0.30.11), ItemCatalog (1.0-SNAPSHOT), JustTPA (20250220c), LuckPerms (5.5.17), Orebfuscator (5.5.6), ProtocolLib (5.4.0), SkinsRestorer (15.9.0), Vanish (0.1), ViaVersion (5.5.2-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[01:39:06] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Drugs-v.2.4.0.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [Vault]. Please download and install these plugins to run 'Drugs'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:567) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1133) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1040) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2269) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2242) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:39:06] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loading 2 libraries... please wait
+[01:39:07] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loaded library /workspaces/msp-/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[01:39:07] [Server thread/INFO]: [SpigotLibraryLoader] [Cigarette] Loaded library /workspaces/msp-/servidor_minecraft/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+[01:39:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.2-SNAPSHOT
+[01:39:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[01:39:07] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[01:39:07] [Server thread/INFO]: notpleizzz lost connection: Server reload, please rejoin!
+[01:39:07] [Server thread/INFO]: notpleizzz left the game
+[01:39:07] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:39:08] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:39:08] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[01:39:08] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.14.2+1c61d82
+[01:39:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@251fc8b0]
+[01:39:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:39:10] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:39:10] [Server thread/INFO]: [floodgate] Took 592ms to boot Floodgate
+[01:39:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[01:39:10] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:39:10] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[01:39:11] [Server thread/INFO]: [Cigarette] Loading server plugin Cigarette v2.0.7
+[01:39:11] [Server thread/INFO]: [ItemCatalog] Loading server plugin ItemCatalog v1.0-SNAPSHOT
+[01:39:11] [Server thread/INFO]: [GWarp] Loading server plugin GWarp v[2.13.0.2]
+[01:39:11] [Server thread/INFO]: [Vanish] Loading server plugin Vanish v0.1
+[01:39:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[01:39:11] [Server thread/INFO]: [EnchantsSquared] Loading server plugin EnchantsSquared v2.5.17
+[01:39:11] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.6
+[01:39:11] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.7.0
+[01:39:11] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[01:39:11] [Server thread/INFO]: [HoldMyCow] Loading server plugin HoldMyCow v1.4.0
+[01:39:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
+[01:39:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:39:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:39:11] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.30.11
+[01:39:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:39:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[01:39:11] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.14.2+1c61d82
+[01:39:11] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:39:11] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:39:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:39:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:39:11] [Server thread/WARN]: Server reload detected. This may cause various issues with FastAsyncWorldEdit and dependent plugins. Reloading the server is not advised.
+[01:39:11] [Server thread/WARN]: For more information why reloading is bad, see https://madelinemiller.dev/blog/problem-with-reload/
+[01:39:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_5.PaperweightFaweAdapter as the Bukkit adapter
+[01:39:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[01:39:12] [Thread-33/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1229 build(s) out of date.
+You are running build 0, the latest version is build 1229.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[01:39:13] [Server thread/INFO]:         __    
+[01:39:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[01:39:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:39:13] [Server thread/INFO]: 
+[01:39:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:39:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:39:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:39:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1502ms)
+[01:39:14] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[01:39:14] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[01:39:15] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[01:39:15] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[01:39:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:39:16] [Server thread/INFO]: [HoldMyCow] Enabling HoldMyCow v1.4.0
+[01:39:16] [Server thread/INFO]: [HoldMyCow] Using ModernTranslationHandler (Paper/fork detected)
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.9.0
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:39:16] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:39:16] [Server thread/INFO]: [HoldMyCow] 
+ _   _       _     _ __  __        ____              
+| | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+| |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+|  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+|_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+                            |___/                    
+[01:39:16] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:39:16] [Server thread/INFO]: [HoldMyCow] HoldMyCow
+[01:39:16] [Server thread/INFO]: [HoldMyCow] version: 1.4.0
+[01:39:16] [Server thread/INFO]: [HoldMyCow] by [Stargaze (Eros Marí)]
+[01:39:16] [Server thread/INFO]: [HoldMyCow] website: https://soystargaze.com
+[01:39:16] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:39:17] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Starting...
+[01:39:17] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HoldMyCow-SQLite - Added connection org.sqlite.jdbc4.JDBC4Connection@f98f093
+[01:39:17] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HoldMyCow-SQLite - Start completed.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] SQLite database initialized successfully.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] Database tables created successfully.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:39:17] [Server thread/INFO]: [HoldMyCow] HoldMyCow enabled successfully.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] Language loaded: en_us.yml (100 translations)
+[01:39:17] [Server thread/INFO]: [HoldMyCow] Commands registered successfully.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] Events registered successfully.
+[01:39:17] [Server thread/INFO]: [HoldMyCow] Version detected: 1.21.5
+[01:39:17] [Server thread/INFO]: [HoldMyCow] --------------------------------------------
+[01:39:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.2-SNAPSHOT
+[01:39:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[01:39:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
+[01:39:17] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[01:39:17] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[01:39:17] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[01:39:17] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[01:39:17] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[01:39:17] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[01:39:17] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[01:39:17] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[01:39:17] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[01:39:17] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[01:39:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[01:39:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1135)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1040)
+[01:39:17] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[01:39:17] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[01:39:17] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2269)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2242)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262)
+[01:39:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308)
+[01:39:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:39:17] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[01:39:17] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[01:39:17] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[01:39:17] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[01:39:17] [User Authenticator #1/INFO]: UUID of player notpleizzz is 9f89170a-6342-3138-9e83-315954fa15a9
+[01:39:17] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[01:39:18] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[01:39:18] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:39:18] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[01:39:18] [Server thread/INFO]: [Cigarette] Enabling Cigarette v2.0.7
+[01:39:18] [Server thread/INFO]: [ItemCatalog] Enabling ItemCatalog v1.0-SNAPSHOT
+[01:39:18] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[01:39:18] [Server thread/INFO]: [GWarp] The Plugin was successfully enabled.
+[01:39:18] [Server thread/INFO]: [Vanish] Enabling Vanish v0.1
+[01:39:18] [Server thread/INFO]: [EnchantsSquared] Enabling EnchantsSquared v2.5.17
+[01:39:18] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.6
+[01:39:18] [Server thread/INFO]: [Orebfuscator] Searching NMS adapter for server version "v1_21_R4_mojang"!
+[01:39:18] [Server thread/INFO]: [Orebfuscator] NMS adapter for server version "v1_21_R4_mojang" found!
+[01:39:19] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.7.0
+[01:39:19] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[01:39:25] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[01:39:25] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[01:39:25] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[01:39:25] [Server thread/INFO]: [JustTPA] bStats enabled
+[01:39:25] [Server thread/INFO]: [JustTPA] Checking for updates...
+[01:39:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
+[01:39:27] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.30.11
+[01:39:27] [Server thread/INFO]: [InvSee++] Detected server software: Paper version 1.21.5
+[01:39:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:39:27] [Server thread/INFO]: [Geyser-Spigot] 
+[01:39:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
+[01:39:27] [Server thread/INFO]: [Geyser-Spigot] 
+[01:39:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:39:28] [User Authenticator #1/INFO]: UUID of player notpleizzz is 9f89170a-6342-3138-9e83-315954fa15a9
+[01:39:32] [GeyserServer-9-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 14171
+[01:39:32] [Server thread/INFO]: [Geyser-Spigot] Done (5.312s)! Run /geyser help for help!
+[01:39:33] [Server thread/INFO]: notpleizzz: Reload complete.
+[01:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32340ms or 646 ticks behind
+[01:39:33] [Craft Scheduler Thread - 27 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:39:33] [Craft Scheduler Thread - 31 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[01:39:33] [Server thread/WARN]: [ItemCatalog] "ItemCatalog v1.0-SNAPSHOT" has registered a listener for org.bukkit.event.entity.EntityKnockbackByEntityEvent on method "public void org.realgotqkura.itemCatalog.items.combat.IronbackHelm.onKnockback(org.bukkit.event.entity.EntityKnockbackByEntityEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[01:39:33] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[01:39:33] [Server thread/WARN]: java.net.UnknownHostException: api.jeff-media.de
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+[01:39:33] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[01:39:33] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629)
+[01:39:33] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[01:39:33] [Server thread/WARN]: 	at AngelChest-13.9.4.jar//de.jeff_media.angelchest.AngelChestMain$$TA.$$case(UpdateChecker.java:203)
+[01:39:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[01:39:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[01:39:33] [Server thread/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:39:33] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:39:33] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:39:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:39:33] [Server thread/WARN]: [AngelChest] Could not check for updates.
+[01:39:33] [Server thread/INFO]: notpleizzz (/127.95.73.114:35407) lost connection: Disconnected
+[01:39:33] [Craft Scheduler Thread - 32 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[01:39:34] [Server thread/INFO]: notpleizzz joined the game
+[01:39:34] [Server thread/INFO]: notpleizzz[/127.95.73.114:37555] logged in with entity id 836 at ([world]190.7034026394486, 71.66918706563166, -531.36439270882)
+[01:39:34] [pool-66-thread-1/INFO]: [HoldMyCow] No updates available. You are using the latest version.
+[01:39:35] [Server thread/INFO]: [AngelChest] ========================================================
+[01:39:35] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[01:39:35] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[01:39:35] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[01:39:35] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[01:39:35] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[01:39:35] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[01:39:35] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[01:39:35] [Server thread/INFO]: [AngelChest] 
+[01:39:35] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[01:39:35] [Server thread/INFO]: [AngelChest] ========================================================
+[01:39:46] [Server thread/INFO]: notpleizzz issued server command: /pl
+[01:39:47] [GeyserServerChild-10-1/INFO]: [Geyser-Spigot] Player connected with username notpleizzz5094 (860)
+[01:39:47] [localSession-13-2/INFO]: [Geyser-Spigot] notpleizzz5094 (logged in as: notpleizzz5094) has connected to the Java server
+[01:39:48] [WebSocketConnectReadThread-367/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[01:39:48] [Server thread/INFO]: [floodgate] Floodgate player logged in as .notpleizzz5094 joined (UUID: 00000000-0000-0000-0009-01fd2ade3bf0)
+[01:39:48] [Server thread/INFO]: .notpleizzz5094 joined the game
+[01:39:48] [Server thread/INFO]: .notpleizzz5094[/127.95.73.114:0] logged in with entity id 858 at ([world]-71.43741, 65.0, -124.324104)
+[01:39:48] [pool-66-thread-2/INFO]: [HoldMyCow] No updates available. You are using the latest version.
+[01:40:30] [Server thread/INFO]: notpleizzz issued server command: /tp .notpleizzz5094 notpleizzz
+[01:40:30] [Server thread/INFO]: [notpleizzz: Teleported .notpleizzz5094 to notpleizzz]
+[01:40:35] [Server thread/INFO]: notpleizzz issued server command: /gamemode spectator
+[01:40:35] [Server thread/INFO]: [notpleizzz: Set own game mode to Spectator Mode]
+[01:40:48] [Server thread/INFO]: notpleizzz issued server command: /gamemode survival
+[01:40:48] [Server thread/INFO]: [notpleizzz: Set own game mode to Survival Mode]
+[01:41:04] [Server thread/INFO]: notpleizzz issued server command: /cigarette give classic-pipe
+[01:41:17] [Server thread/INFO]: notpleizzz issued server command: /cigarette give golden-pipe
+[01:41:34] [Server thread/INFO]: notpleizzz issued server command: /cigarette give marlboro
+[01:41:42] [Server thread/INFO]: notpleizzz issued server command: /cigarette give weed
+[01:42:35] [Server thread/INFO]: notpleizzz issued server command: /gamemode creative @a
+[01:42:35] [Server thread/INFO]: [notpleizzz: Set own game mode to Creative Mode]
+[01:42:35] [Server thread/INFO]: [notpleizzz: Set .notpleizzz5094's game mode to Creative Mode]
+[01:42:42] [Server thread/INFO]: notpleizzz issued server command: /tp .notpleizzz5094 notpleizzz
+[01:42:42] [Server thread/INFO]: [notpleizzz: Teleported .notpleizzz5094 to notpleizzz]
+[01:43:01] [Server thread/INFO]: notpleizzz issued server command: /itemcatalog
+[01:43:30] [Server thread/INFO]: notpleizzz issued server command: /itemcatalog
+[01:44:31] [Server thread/INFO]: notpleizzz issued server command: /itemcatalog
+[01:45:23] [Server thread/INFO]: notpleizzz issued server command: /tpa .notpleizzz5094
+[01:45:33] [Server thread/INFO]: .notpleizzz5094 issued server command: /tpaccept
+[01:45:42] [Server thread/INFO]: notpleizzz issued server command: /vanish
+[01:45:52] [Server thread/INFO]: notpleizzz issued server command: /deop .notpleizzz5094
+[01:45:52] [Server thread/INFO]: [notpleizzz: Made .notpleizzz5094 no longer a server operator]
+[01:45:56] [Server thread/INFO]: notpleizzz issued server command: /vanish
+[01:45:58] [Server thread/INFO]: notpleizzz issued server command: /vanish
+[01:46:05] [Server thread/INFO]: notpleizzz issued server command: /vanish
+[01:46:28] [Server thread/INFO]: notpleizzz issued server command: /skin menu
+[01:46:31] [Folia Async Scheduler Thread #2/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:46:57] [Server thread/INFO]: .notpleizzz5094 issued server command: /skin menu
+[01:54:31] [GeyserServerChild-10-1/INFO]: [Geyser-Spigot] notpleizzz5094 has disconnected from the Java server because of Bedrock client disconnected
+[01:54:31] [Geyser Spigot connection thread-12-3/INFO]: [floodgate] Floodgate player logged in as .notpleizzz5094 disconnected
+[01:54:31] [Server thread/INFO]: .notpleizzz5094 lost connection: Disconnected
+[01:54:31] [Server thread/INFO]: .notpleizzz5094 left the game
+[01:54:35] [Server thread/INFO]: notpleizzz lost connection: Disconnected
+[01:54:35] [Server thread/INFO]: notpleizzz left the game

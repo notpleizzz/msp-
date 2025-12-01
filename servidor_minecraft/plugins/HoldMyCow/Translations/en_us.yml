@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____              
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+#                             |___/                    
+
+# Support: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>" # The color applied to {0}, {1}, etc. in translations
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "version: {0}"
+  author: "by {0}"
+  website: "website: {0}"
+  enabled: "HoldMyCow enabled successfully."
+  disabled: "HoldMyCow disabled successfully."
+  language_loaded: "Language loaded: {0}.yml ({1} translations)"
+  enable_error: "An error occurred while enabling HoldMyCow: {0}"
+  version_detected: "Version detected: {0}"
+  paper_detected: "<color:#FFA500>Paper detected:</color> Using paper hooks for better performance."
+  paper_not_detected: "<color:#FFA500>Spigot detected:</color> Using core hooks."
+  update_available: "<color:#FFA500>Update available:</color> Download HoldMyCow {0} at {1}"
+  no_update_available: "<color:#FFA500>No updates available.</color> You are using the latest version."
+  update_check_failed: "<color:#FFA500>Failed to check for updates:</color> {0}"
+  update_check_error: "<color:#FFA500>Error checking for updates:</color> {0}"
+  entity:
+    worldguard_detected: "WorldGuard detected for entity interactions."
+    lands_detected: "Lands detected for entity interactions."
+    griefprevention_detected: "GriefPrevention detected for entity interactions."
+    griefprevention_integration_success: "GriefPrevention integration for entities successful."
+    griefprevention_integration_failed: "GriefPrevention integration for entities failed: {0}"
+    griefprevention_error: "Error with GriefPrevention for entities: {0}"
+  container:
+    worldguard_detected: "WorldGuard detected for container interactions."
+    lands_detected: "Lands detected for container interactions."
+    lootin_detected: "Lootin detected for container interactions."
+    griefprevention_detected: "GriefPrevention detected for container interactions."
+    griefprevention_integration_success: "GriefPrevention integration for containers successful."
+    griefprevention_integration_failed: "GriefPrevention integration for containers failed: {0}"
+    griefprevention_error: "Error with GriefPrevention for containers: {0}"
+  worldguard:
+    entity_flag_registered: "The 'holdmycow-entity' flag has been successfully registered."
+    entity_flag_conflict_resolved: "A conflict with the 'holdmycow-entity' flag was resolved by using the existing flag."
+    entity_flag_conflict_error: "There was a conflict with the 'holdmycow-entity' flag that could not be resolved."
+    container_flag_registered: "The 'holdmycow-container' flag has been successfully registered."
+    container_flag_conflict_resolved: "A conflict with the 'holdmycow-container' flag was resolved by using the existing flag."
+    container_flag_conflict_error: "There was a conflict with the 'holdmycow-container' flag that could not be resolved."
+
+events:
+  registered: "Events registered successfully."
+
+commands:
+  player_only: "<red>This command can only be used by players.</red>"
+  registered: "Commands registered successfully."
+  usage: "Usage: /vitamin <args>"
+  no_permission: "<red>You do not have permission to use this command.</red>"
+  reload:
+    success: "HoldMyCow reloaded successfully."
+    error: "An error occurred while reloading HoldMyCow."
+  restore:
+    usage: "<red>Usage: /holdmycow restore <player></red>"
+    no_backups: "<red>No container backups found for player {0}.</red>"
+    opened: "<green>Opened restore interface for {0}. Found {1} containers.</green>"
+    success: "<green>Successfully restored {0} with ID {1} to your inventory.</green>"
+    error: "<red>Error creating the restored container. Please try again.</red>"
+    inventory_full: "<red>Your inventory is full. Make some space and try again.</red>"
+
+database:
+  already_initialized: "The database has already been initialized."
+  init_error: "An error occurred while initializing the database: {0}"
+  sqlite:
+    error_directory: "Failed to create SQLite database directory: "
+    success: "SQLite database initialized successfully."
+  mysql:
+    success: "MySQL database initialized successfully."
+  mariadb:
+    success: "MariaDB database initialized successfully."
+  postgresql:
+    success: "PostgreSQL database initialized successfully."
+  tables:
+    success: "Database tables created successfully."
+    error: "An error occurred while creating database tables: {0}"
+  query_error: "An error occurred while executing a database query: {0}"
+  update_error: "An error occurred while updating the database: {0}"
+  close:
+    success: "Database connection closed successfully."
+  chest:
+    save_error: "An error occurred while saving the chest: {0}"
+    load_error: "An error occurred while loading the chest: {0}"
+    delete_error: "An error occurred while deleting the chest: {0}"
+    deserialize_error: "An error occurred while deserializing the chest: {0}"
+  restore:
+    preview_error: "Error loading container preview: {0}"
+    load_error: "Error loading player backups: {0}"
+    info_error: "Error getting backup information: {0}"
+    mark_error: "Error marking container as restored: {0}"
+    create_error: "Error creating restored container: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>You cannot pick up players!</red>"
+  cannot_carry_while_carrying: "<red>You cannot carry an entity while carrying another!</red>"
+  cannot_carry_while_being_carried: "<red>You cannot carry an entity while being carried!</red>"
+  cannot_carry_someone_carrying: "<red>You cannot carry someone who is already carrying an entity!</red>"
+  cannot_carry_someone_being_carried: "<red>You cannot carry someone who is being carried!</red>"
+  you_dismounted: "<red>You have dismounted from the player.</red>"
+  no_permissions: "<red>You do not have permission to pick up this.</red>"
+  cannot_pickup_entity: "<red>This entity cannot be picked up!</red>"
+  entity_too_heavy: "<red>This entity is too heavy to carry!</red>"
+  picked_up_entity: "<green>You have picked up an entity (Weight: {0}/{1})</green>"
+  entity_dropped: "You have released the entity."
+  picked_up_chest: "<green>You have picked up a <yellow>Chest</yellow>.</green>"
+  picked_up_block: "<green>You have picked up a <yellow>Container</yellow>.</green>"
+  placed_block: "<gold>You have placed the block.</gold>"
+  placed_chest: "<green>You have placed a chest.</green>"
+  no_lootin_pickup: "<red>You cannot pick up this Lootin container.</red>"
+  no_permission_barrel: "<red>You lack permission to carry barrels."
+  no_permission_blast_furnace: "<red>You lack permission to carry blast furnaces."
+  no_permission_brewing_stand: "<red>You lack permission to carry brewing stands."
+  no_permission_chest: "<red>You lack permission to carry chests."
+  no_permission_dispenser: "<red>You lack permission to carry dispensers."
+  no_permission_dropper: "<red>You lack permission to carry droppers."
+  no_permission_ender_chest: "<red>You lack permission to carry ender chests."
+  no_permission_furnace: "<red>You lack permission to carry furnaces."
+  no_permission_hopper: "<red>You lack permission to carry hoppers."
+  no_permission_shulker_box: "<red>You lack permission to carry shulker boxes."
+  no_permission_smoker: "<red>You lack permission to carry smokers."
+  no_permission_trapped_chest: "<red>You lack permission to carry trapped chests."
+  no_stacking_allowed: "<red>Container stacking is disabled."

@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V /
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/
+#                             |___/
+
+# Support: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>"
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "sürüm: {0}"
+  author: "tarafından {0}"
+  website: "web sitesi: {0}"
+  enabled: "HoldMyCow başarıyla etkinleştirildi."
+  disabled: "HoldMyCow başarıyla devre dışı bırakıldı."
+  language_loaded: "Dil yüklendi: {0}.yml ({1} çeviri)"
+  enable_error: "HoldMyCow etkinleştirilirken bir hata oluştu: {0}"
+  version_detected: "Algılanan sürüm: {0}"
+  paper_detected: "<color:#FFA500>Paper algılandı:</color> Daha iyi performans için Paper hook’ları kullanılıyor."
+  paper_not_detected: "<color:#FFA500>Spigot algılandı:</color> Çekirdek hook’ları kullanılıyor."
+  update_available: "<color:#FFA500>Güncelleme mevcut:</color> HoldMyCow {0} sürümünü {1} adresinden indirin"
+  no_update_available: "<color:#FFA500>Güncelleme yok.</color> En son sürümü kullanıyorsunuz."
+  update_check_failed: "<color:#FFA500>Güncelleme kontrolü başarısız oldu:</color> {0}"
+  update_check_error: "<color:#FFA500>Güncelleme kontrolü sırasında hata oluştu:</color> {0}"
+  entity:
+    worldguard_detected: "Varlık etkileşimleri için WorldGuard algılandı."
+    lands_detected: "Varlık etkileşimleri için Lands algılandı."
+    griefprevention_detected: "Varlık etkileşimleri için GriefPrevention algılandı."
+    griefprevention_integration_success: "Varlıklar için GriefPrevention entegrasyonu başarılı."
+    griefprevention_integration_failed: "Varlıklar için GriefPrevention entegrasyonu başarısız: {0}"
+    griefprevention_error: "Varlıklar için GriefPrevention hatası: {0}"
+  container:
+    worldguard_detected: "Konteyner etkileşimleri için WorldGuard algılandı."
+    lands_detected: "Konteyner etkileşimleri için Lands algılandı."
+    lootin_detected: "Konteyner etkileşimleri için Lootin algılandı."
+    griefprevention_detected: "Konteyner etkileşimleri için GriefPrevention algılandı."
+    griefprevention_integration_success: "Konteynerler için GriefPrevention entegrasyonu başarılı."
+    griefprevention_integration_failed: "Konteynerler için GriefPrevention entegrasyonu başarısız: {0}"
+    griefprevention_error: "Konteynerler için GriefPrevention hatası: {0}"
+  worldguard:
+    entity_flag_registered: "'holdmycow-entity' bayrağı başarıyla kaydedildi."
+    entity_flag_conflict_resolved: "'holdmycow-entity' bayrağıyla bir çakışma, mevcut bayrak kullanılarak çözüldü."
+    entity_flag_conflict_error: "'holdmycow-entity' bayrağıyla çözülemeyen bir çakışma oluştu."
+    container_flag_registered: "'holdmycow-container' bayrağı başarıyla kaydedildi."
+    container_flag_conflict_resolved: "'holdmycow-container' bayrağıyla bir çakışma, mevcut bayrak kullanılarak çözüldü."
+    container_flag_conflict_error: "'holdmycow-container' bayrağıyla çözülemeyen bir çakışma oluştu."
+
+events:
+  registered: "Olaylar başarıyla kaydedildi."
+
+commands:
+  player_only: "<red>Bu komutu yalnızca oyuncular kullanabilir.</red>"
+  no_permission: "<red>Bu komutu kullanma izniniz yok.</red>"
+  registered: "Komutlar başarıyla kaydedildi."
+  usage: "Kullanım: /HoldMyCow <args>"
+  reload:
+    success: "HoldMyCow başarıyla yeniden yüklendi."
+    error: "HoldMyCow yeniden yüklenirken bir hata oluştu."
+  restore:
+    usage: "<red>Kullanım: /holdmycow restore <oyuncu></red>"
+    no_backups: "<red>{0} oyuncusu için konteyner yedekleri bulunamadı.</red>"
+    opened: "<green>{0} için geri yükleme arayüzü açıldı. {1} konteyner bulundu.</green>"
+    success: "<green>Geri yükleme arayüzü başarıyla açıldı.</green>"
+    error: "<red>Geri yükleme arayüzü açılırken bir hata oluştu.</red>"
+    inventory_full: "<red>Envanteriniz dolu. Lütfen biraz yer açın ve tekrar deneyin.</red>"
+
+database:
+  already_initialized: "Veritabanı zaten başlatılmış."
+  init_error: "Veritabanı başlatılırken bir hata oluştu: {0}"
+  sqlite:
+    error_directory: "SQLite veritabanı dizini oluşturulamadı: "
+    success: "SQLite veritabanı başarıyla başlatıldı."
+  mysql:
+    success: "MySQL veritabanı başarıyla başlatıldı."
+  mariadb:
+    success: "MariaDB veritabanı başarıyla başlatıldı."
+  postgresql:
+    success: "PostgreSQL veritabanı başarıyla başlatıldı."
+  tables:
+    success: "Veritabanı tabloları başarıyla oluşturuldu."
+    error: "Veritabanı tabloları oluşturulurken bir hata oluştu: {0}"
+  query_error: "Veritabanı sorgusu çalıştırılırken bir hata oluştu: {0}"
+  update_error: "Veritabanı güncellenirken bir hata oluştu: {0}"
+  close:
+    success: "Veritabanı bağlantısı başarıyla kapatıldı."
+  chest:
+    save_error: "Sandık kaydedilirken bir hata oluştu: {0}"
+    load_error: "Sandık yüklenirken bir hata oluştu: {0}"
+    delete_error: "Sandık silinirken bir hata oluştu: {0}"
+    deserialize_error: "Sandık serileştirilirken bir hata oluştu: {0}"
+  restore:
+    preview_error: "Konteyner önizlemesi yüklenirken hata: {0}"
+    load_error: "Konteyner yüklenirken hata: {0}"
+    info_error: "Konteyner bilgileri yüklenirken hata: {0}"
+    mark_error: "Konteyner işaretlenirken hata: {0}"
+    create_error: "Konteyner oluşturulurken hata: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>Oyuncuları alamazsınız!</red>"
+  cannot_carry_while_carrying: "<red>Başka bir varlık taşırken varlık taşıyamazsınız!</red>"
+  cannot_carry_while_being_carried: "<red>Taşınırken varlık taşıyamazsınız!</red>"
+  cannot_carry_someone_carrying: "<red>Zaten bir varlık taşıyan birini taşıyamazsınız!</red>"
+  cannot_carry_someone_being_carried: "<red>Taşınan birini taşıyamazsınız!</red>"
+  you_dismounted: "<red>Oyuncudan indiniz.</red>"
+  no_permissions: "<red>Bunu almak için izniniz yok.</red>"
+  cannot_pickup_entity: "<red>Bu varlık alınamaz!</red>"
+  entity_too_heavy: "<red>Bu varlık taşımak için çok ağır!</red>"
+  picked_up_entity: "<green>Bir varlık aldınız (Ağırlık: {0}/{1})</green>"
+  entity_dropped: "Varlığı bıraktınız."
+  picked_up_chest: "<green>Bir <yellow>Sandık</yellow> aldınız.</green>"
+  picked_up_block: "<green>Bir <yellow>Konteyner</yellow> aldınız.</green>"
+  placed_block: "<gold>Bloku yerleştirdiniz.</gold>"
+  placed_chest: "<green>Bir sandık yerleştirdiniz.</green>"
+  no_lootin_pickup: "<red>Bu Lootin konteynerini alamazsınız.</red>"
+  no_permission_barrel: "<red>Fıçı taşıma izniniz yok."
+  no_permission_blast_furnace: "<red>Yüksek fırın taşıma izniniz yok."
+  no_permission_brewing_stand: "<red>İksir masası taşıma izniniz yok."
+  no_permission_chest: "<red>Sandık taşıma izniniz yok."
+  no_permission_dispenser: "<red>Dağıtıcı taşıma izniniz yok."
+  no_permission_dropper: "<red>Bırakıcı taşıma izniniz yok."
+  no_permission_ender_chest: "<red>Ender sandığı taşıma izniniz yok."
+  no_permission_furnace: "<red>Fırın taşıma izniniz yok."
+  no_permission_hopper: "<red>Huni taşıma izniniz yok."
+  no_permission_shulker_box: "<red>Shulker kutusu taşıma izniniz yok."
+  no_permission_smoker: "<red>Fümeleyici taşıma izniniz yok."
+  no_permission_trapped_chest: "<red>Tuzaklı sandık taşıma izniniz yok."
+  no_stacking_allowed: "<red>Konteyner istifleme devre dışı."

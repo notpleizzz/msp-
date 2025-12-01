@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____              
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V / 
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/  
+#                             |___/                    
+
+# サポート: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>"
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "バージョン: {0}"
+  author: "作者: {0}"
+  website: "ウェブサイト: {0}"
+  enabled: "HoldMyCowが正常に有効化されました。"
+  disabled: "HoldMyCowが正常に無効化されました。"
+  language_loaded: "言語が読み込まれました: {0}.yml ({1} 翻訳)"
+  enable_error: "HoldMyCowを有効にする際にエラーが発生しました: {0}"
+  version_detected: "検出されたバージョン: {0}"
+  paper_detected: "<color:#FFA500>Paperを検出しました:</color> より良いパフォーマンスのためにPaperフックを使用します。"
+  paper_not_detected: "<color:#FFA500>Spigotを検出しました:</color> コアフックを使用します。"
+  update_available: "<color:#FFA500>アップデートが利用可能です:</color> HoldMyCow {0}を{1}からダウンロードしてください"
+  no_update_available: "<color:#FFA500>アップデートはありません。</color> 最新バージョンを使用しています。"
+  update_check_failed: "<color:#FFA500>アップデートの確認に失敗しました:</color> {0}"
+  update_check_error: "<color:#FFA500>アップデートの確認中にエラーが発生しました:</color> {0}"
+  entity:
+    worldguard_detected: "エンティティの相互作用のためにWorldGuardが検出されました。"
+    lands_detected: "エンティティの相互作用のためにLandsが検出されました。"
+    griefprevention_detected: "エンティティの相互作用のためにGriefPreventionが検出されました。"
+    griefprevention_integration_success: "エンティティのGriefPrevention統合が成功しました。"
+    griefprevention_integration_failed: "エンティティのGriefPrevention統合に失敗しました: {0}"
+    griefprevention_error: "エンティティのGriefPreventionでエラーが発生しました: {0}"
+  container:
+    worldguard_detected: "コンテナの相互作用のためにWorldGuardが検出されました。"
+    lands_detected: "コンテナの相互作用のためにLandsが検出されました。"
+    lootin_detected: "コンテナの相互作用のためにLootinが検出されました。"
+    griefprevention_detected: "コンテナの相互作用のためにGriefPreventionが検出されました。"
+    griefprevention_integration_success: "コンテナのGriefPrevention統合が成功しました。"
+    griefprevention_integration_failed: "コンテナのGriefPrevention統合に失敗しました: {0}"
+    griefprevention_error: "コンテナのGriefPreventionでエラーが発生しました: {0}"
+  worldguard:
+    entity_flag_registered: "「holdmycow-entity」フラグが正常に登録されました。"
+    entity_flag_conflict_resolved: "「holdmycow-entity」フラグの競合が既存のフラグを使用して解決されました。"
+    entity_flag_conflict_error: "「holdmycow-entity」フラグとの競合を解決できませんでした。"
+    container_flag_registered: "「holdmycow-container」フラグが正常に登録されました。"
+    container_flag_conflict_resolved: "「holdmycow-container」フラグの競合が既存のフラグを使用して解決されました。"
+    container_flag_conflict_error: "「holdmycow-container」フラグとの競合を解決できませんでした。"
+
+events:
+  registered: "イベントが正常に登録されました。"
+
+commands:
+  player_only: "<red>このコマンドはプレイヤーのみが使用できます。</red>"
+  registered: "コマンドが正常に登録されました。"
+  usage: "使用法: /vitamin <args>"
+  no_permission: "<red>このコマンドを使用する権限がありません。</red>"
+  reload:
+    success: "HoldMyCowが正常にリロードされました。"
+    error: "HoldMyCowをリロードする際にエラーが発生しました。"
+  restore:
+    usage: "<red>使用法: /holdmycow restore <player></red>"
+    no_backups: "<red>プレイヤー {0} のコンテナバックアップが見つかりません。</red>"
+    opened: "<green>{0} の復元インターフェースを開きました。{1} 個のコンテナが見つかりました。</green>"
+    success: "<green>ID {1}の{0}をインベントリに正常に復元しました。</green>"
+    error: "<red>復元されたコンテナの作成中にエラーが発生しました。もう一度試してください。</red>"
+    inventory_full: "<red>インベントリがいっぱいです。復元できません。</red>"
+
+database:
+  already_initialized: "データベースは既に初期化されています。"
+  init_error: "データベースの初期化中にエラーが発生しました: {0}"
+  sqlite:
+    error_directory: "SQLiteデータベースディレクトリの作成に失敗しました: "
+    success: "SQLiteデータベースが正常に初期化されました。"
+  mysql:
+    success: "MySQLデータベースが正常に初期化されました。"
+  mariadb:
+    success: "MariaDBデータベースが正常に初期化されました。"
+  postgresql:
+    success: "PostgreSQLデータベースが正常に初期化されました。"
+  tables:
+    success: "データベーステーブルが正常に作成されました。"
+    error: "データベーステーブルの作成中にエラーが発生しました: {0}"
+  query_error: "データベースクエリの実行中にエラーが発生しました: {0}"
+  update_error: "データベースの更新中にエラーが発生しました: {0}"
+  close:
+    success: "データベース接続が正常に閉じられました。"
+  chest:
+    save_error: "チェストの保存中にエラーが発生しました: {0}"
+    load_error: "チェストの読み込み中にエラーが発生しました: {0}"
+    delete_error: "チェストの削除中にエラーが発生しました: {0}"
+    deserialize_error: "チェストのデシリアライズ中にエラーが発生しました: {0}"
+  restore:
+    preview_error: "コンテナのプレビューの読み込み中にエラーが発生しました: {0}"
+    load_error: "コンテナの読み込み中にエラーが発生しました: {0}"
+    info_error: "コンテナ情報の読み込み中にエラーが発生しました: {0}"
+    mark_error: "コンテナのマーク中にエラーが発生しました: {0}"
+    create_error: "コンテナの作成中にエラーが発生しました: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>プレイヤーを拾うことはできません！</red>"
+  cannot_carry_while_carrying: "<red>別のエンティティを持ちながらエンティティを持つことはできません！</red>"
+  cannot_carry_while_being_carried: "<red>運ばれている間はエンティティを持つことはできません！</red>"
+  cannot_carry_someone_carrying: "<red>すでにエンティティを持っている人を運ぶことはできません！</red>"
+  cannot_carry_someone_being_carried: "<red>運ばれている人を運ぶことはできません！</red>"
+  you_dismounted: "<red>プレイヤーから降りました。</red>"
+  no_permissions: "<red>これを拾う権限がありません。</red>"
+  cannot_pickup_entity: "<red>このエンティティは拾うことができません！</red>"
+  entity_too_heavy: "<red>このエンティティは重すぎて運べません！</red>"
+  picked_up_entity: "<green>エンティティを拾いました（重さ: {0}/{1}）</green>"
+  entity_dropped: "エンティティを解放しました。"
+  picked_up_chest: "<green><yellow>チェスト</yellow>を拾いました。</green>"
+  picked_up_block: "<green><yellow>コンテナ</yellow>を拾いました。</green>"
+  placed_block: "<gold>ブロックを配置しました。</gold>"
+  placed_chest: "<green>チェストを配置しました。</green>"
+  no_lootin_pickup: "<red>このルーティンコンテナを拾うことはできません。</red>"
+  no_permission_barrel: "<red>樽を運ぶ権限がありません。"
+  no_permission_blast_furnace: "<red>高炉を運ぶ権限がありません。"
+  no_permission_brewing_stand: "<red>醸造台を運ぶ権限がありません。"
+  no_permission_chest: "<red>チェストを運ぶ権限がありません。"
+  no_permission_dispenser: "<red>ディスペンサーを運ぶ権限がありません。"
+  no_permission_dropper: "<red>ドロッパーを運ぶ権限がありません。"
+  no_permission_ender_chest: "<red>エンダーチェストを運ぶ権限がありません。"
+  no_permission_furnace: "<red>かまどを運ぶ権限がありません。"
+  no_permission_hopper: "<red>ホッパーを運ぶ権限がありません。"
+  no_permission_shulker_box: "<red>シュルカーボックスを運ぶ権限がありません。"
+  no_permission_smoker: "<red>燻製器を運ぶ権限がありません。"
+  no_permission_trapped_chest: "<red>トラップチェストを運ぶ権限がありません。"
+  no_stacking_allowed: "<red>コンテナのスタックは無効です。"

@@ -1,0 +1,131 @@
+#  _   _       _     _ __  __        ____
+# | | | | ___ | | __| |  \/  |_   _ / ___|_____      __
+# | |_| |/ _ \| |/ _` | |\/| | | | | |   / _ \ \ /\ / /
+# |  _  | (_) | | (_| | |  | | |_| | |__| (_) \ V  V /
+# |_| |_|\___/|_|\__,_|_|  |_|\__, |\____\___/ \_/\_/
+#                             |___/
+
+# Support: https://soystargaze.com/discord
+
+plugin:
+  prefix: "<gray>[</gray><gradient:#FFA500:#FFFF00>HoldMyCow</gradient><gray>]</gray> "
+  dynamic_color: "<color:#FFA500>" # Kolor stosowany do {0}, {1} itp. w tłumaczeniach
+  separator: "<gradient:#FFA500:#FFFF00><bold>--------------------------------------------</gradient>"
+  name: "<gradient:#FFA500:#FFFF00>HoldMyCow</gradient>"
+  version: "wersja: {0}"
+  author: "przez {0}"
+  website: "strona: {0}"
+  enabled: "HoldMyCow pomyślnie włączony."
+  disabled: "HoldMyCow pomyślnie wyłączony."
+  language_loaded: "Załadowano język: {0}.yml ({1} tłumaczeń)"
+  enable_error: "Wystąpił błąd podczas włączania HoldMyCow: {0}"
+  version_detected: "Wykryta wersja: {0}"
+  paper_detected: "<color:#FFA500>Wykryto Paper:</color> Korzystanie z haków Paper dla lepszej wydajności."
+  paper_not_detected: "<color:#FFA500>Wykryto Spigot:</color> Korzystanie z haków rdzenia."
+  update_available: "<color:#FFA500>Dostępna aktualizacja:</color> Pobierz HoldMyCow {0} z {1}"
+  no_update_available: "<color:#FFA500>Brak dostępnych aktualizacji.</color> Używasz najnowszej wersji."
+  update_check_failed: "<color:#FFA500>Nie udało się sprawdzić aktualizacji:</color> {0}"
+  update_check_error: "<color:#FFA500>Wystąpił błąd podczas sprawdzania aktualizacji:</color> {0}"
+  entity:
+    worldguard_detected: "Wykryto WorldGuard dla interakcji z encjami."
+    lands_detected: "Wykryto Lands dla interakcji z encjami."
+    griefprevention_detected: "Wykryto GriefPrevention dla interakcji z encjami."
+    griefprevention_integration_success: "Integracja GriefPrevention dla encji zakończona sukcesem."
+    griefprevention_integration_failed: "Integracja GriefPrevention dla encji nie powiodła się: {0}"
+    griefprevention_error: "Błąd z GriefPrevention dla encji: {0}"
+  container:
+    worldguard_detected: "Wykryto WorldGuard dla interakcji z kontenerami."
+    lands_detected: "Wykryto Lands dla interakcji z kontenerami."
+    lootin_detected: "Wykryto Lootin dla interakcji z kontenerami."
+    griefprevention_detected: "Wykryto GriefPrevention dla interakcji z kontenerami."
+    griefprevention_integration_success: "Integracja GriefPrevention dla kontenerów zakończona sukcesem."
+    griefprevention_integration_failed: "Integracja GriefPrevention dla kontenerów nie powiodła się: {0}"
+    griefprevention_error: "Błąd z GriefPrevention dla kontenerów: {0}"
+  worldguard:
+    entity_flag_registered: "Flaga 'holdmycow-entity' została pomyślnie zarejestrowana."
+    entity_flag_conflict_resolved: "Konflikt z flagą 'holdmycow-entity' został rozwiązany przy użyciu istniejącej flagi."
+    entity_flag_conflict_error: "Wystąpił konflikt z flagą 'holdmycow-entity', którego nie udało się rozwiązać."
+    container_flag_registered: "Flaga 'holdmycow-container' została pomyślnie zarejestrowana."
+    container_flag_conflict_resolved: "Konflikt z flagą 'holdmycow-container' został rozwiązany przy użyciu istniejącej flagi."
+    container_flag_conflict_error: "Wystąpił konflikt z flagą 'holdmycow-container', którego nie udało się rozwiązać."
+
+events:
+  registered: "Pomyślnie zarejestrowano wydarzenia."
+
+commands:
+  player_only: "<red>Ten rozkaz może być używany tylko przez graczy.</red>"
+  no_permission: "<red>Nie masz uprawnień do używania tej komendy.</red>"
+  registered: "Pomyślnie zarejestrowano komendy."
+  usage: "Użycie: /HoldMyCow <args>"
+  reload:
+    success: "HoldMyCow został pomyślnie przeładowany."
+    error: "Wystąpił błąd podczas przeładowywania HoldMyCow."
+  restore:
+    usage: "<red>Użycie: /holdmycow restore <gracz></red>"
+    no_backups: "<red>Nie znaleziono kopii zapasowych kontenerów dla gracza {0}.</red>"
+    opened: "<green>Otworzono interfejs przywracania dla {0}. Znaleziono {1} kontenerów.</green>"
+    success: "<green>Pomyślnie przywrócono {0} o identyfikatorze {1} do Twojego ekwipunku.</green>"
+    error: "<red>Błąd podczas tworzenia przywróconego kontenera. Spróbuj ponownie.</red>"
+    inventory_full: "<red>Twój ekwipunek jest pełny. Zrób trochę miejsca i spróbuj ponownie.</red>"
+
+database:
+  already_initialized: "Baza danych została już zainicjalizowana."
+  init_error: "Wystąpił błąd podczas inicjalizacji bazy danych: {0}"
+  sqlite:
+    error_directory: "Nie udało się utworzyć katalogu bazy danych SQLite: "
+    success: "Baza danych SQLite została pomyślnie zainicjalizowana."
+  mysql:
+    success: "Baza danych MySQL została pomyślnie zainicjalizowana."
+  mariadb:
+    success: "Baza danych MariaDB została pomyślnie zainicjalizowana."
+  postgresql:
+    success: "Baza danych PostgreSQL została pomyślnie zainicjalizowana."
+  tables:
+    success: "Pomyślnie utworzono tabele bazy danych."
+    error: "Wystąpił błąd podczas tworzenia tabel bazy danych: {0}"
+  query_error: "Wystąpił błąd podczas wykonywania zapytania do bazy danych: {0}"
+  update_error: "Wystąpił błąd podczas aktualizacji bazy danych: {0}"
+  close:
+    success: "Połączenie z bazą danych zostało pomyślnie zamknięte."
+  chest:
+    save_error: "Wystąpił błąd podczas zapisywania skrzyni: {0}"
+    load_error: "Wystąpił błąd podczas ładowania skrzyni: {0}"
+    delete_error: "Wystąpił błąd podczas usuwania skrzyni: {0}"
+    deserialize_error: "Wystąpił błąd podczas deserializacji skrzyni: {0}"
+  restore:
+    preview_error: "Błąd podczas ładowania podglądu kontenera: {0}"
+    load_error: "Błąd podczas ładowania kontenera: {0}"
+    info_error: "Błąd podczas pobierania informacji o kontenerze: {0}"
+    mark_error: "Błąd podczas oznaczania kontenera: {0}"
+    create_error: "Błąd podczas tworzenia kontenera: {0}"
+
+carry_on:
+  cannot_pickup_players: "<red>Nie możesz podnosić graczy!</red>"
+  cannot_carry_while_carrying: "<red>Nie możesz nosić jednostki, gdy nosisz inną!</red>"
+  cannot_carry_while_being_carried: "<red>Nie możesz nosić jednostki, gdy jesteś noszony!</red>"
+  cannot_carry_someone_carrying: "<red>Nie możesz nosić kogoś, kto już nosi jednostkę!</red>"
+  cannot_carry_someone_being_carried: "<red>Nie możesz nosić kogoś, kto jest noszony!</red>"
+  you_dismounted: "<red>Zsiadłeś z gracza.</red>"
+  no_permissions: "<red>Nie masz uprawnień, aby to podnieść.</red>"
+  cannot_pickup_entity: "<red>Tej jednostki nie można podnieść!</red>"
+  entity_too_heavy: "<red>Ta jednostka jest za ciężka, aby ją nosić!</red>"
+  picked_up_entity: "<green>Podniosłeś jednostkę (Waga: {0}/{1})</green>"
+  entity_dropped: "Uwolniłeś jednostkę."
+  picked_up_chest: "<green>Podniosłeś <yellow>Skrzynię</yellow>.</green>"
+  picked_up_block: "<green>Podniosłeś <yellow>Pojemnik</yellow>.</green>"
+  placed_block: "<gold>Umieściłeś blok.</gold>"
+  placed_chest: "<green>Umieściłeś skrzynię.</green>"
+  no_lootin_pickup: "<red>Nie możesz podnieść tego pojemnika Lootin.</red>"
+  no_permission_barrel: "<red>Nie masz uprawnień do noszenia beczek."
+  no_permission_blast_furnace: "<red>Nie masz uprawnień do noszenia pieców hutniczych."
+  no_permission_brewing_stand: "<red>Nie masz uprawnień do noszenia stołów alchemicznych."
+  no_permission_chest: "<red>Nie masz uprawnień do noszenia skrzyń."
+  no_permission_dispenser: "<red>Nie masz uprawnień do noszenia dozowników."
+  no_permission_dropper: "<red>Nie masz uprawnień do noszenia podajników."
+  no_permission_ender_chest: "<red>Nie masz uprawnień do noszenia skrzyń Endu."
+  no_permission_furnace: "<red>Nie masz uprawnień do noszenia pieców."
+  no_permission_hopper: "<red>Nie masz uprawnień do noszenia lejów."
+  no_permission_shulker_box: "<red>Nie masz uprawnień do noszenia skrzyń shulkera."
+  no_permission_smoker: "<red>Nie masz uprawnień do noszenia wędzarni."
+  no_permission_trapped_chest: "<red>Nie masz uprawnień do noszenia skrzyń z pułapką."
+  no_stacking_allowed: "<red>Składanie pojemników jest wyłączone."
